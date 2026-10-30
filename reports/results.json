@@ -1,0 +1,846 @@
+{
+  "reports": [
+    {
+      "name": "keywords @ test",
+      "n": 800,
+      "route_accuracy": 0.7388,
+      "exact_accuracy": 0.68,
+      "route_macro_f1": 0.6508,
+      "valid_outputs": 1.0,
+      "ms_per_request": 0.0,
+      "confusion": {
+        "orders": {
+          "orders": 260,
+          "other": 57,
+          "knowledge": 3
+        },
+        "tickets": {
+          "tickets": 237,
+          "other": 77,
+          "orders": 3,
+          "knowledge": 3
+        },
+        "knowledge": {
+          "knowledge": 68,
+          "other": 12
+        },
+        "other": {
+          "knowledge": 54,
+          "other": 26
+        }
+      }
+    },
+    {
+      "name": "keywords @ deskpilot",
+      "n": 37,
+      "route_accuracy": 0.973,
+      "exact_accuracy": 0.973,
+      "route_macro_f1": 0.9048,
+      "valid_outputs": 1.0,
+      "ms_per_request": 0.0,
+      "confusion": {
+        "orders": {
+          "orders": 18
+        },
+        "tickets": {
+          "tickets": 7
+        },
+        "knowledge": {
+          "knowledge": 10
+        },
+        "other": {
+          "other": 1,
+          "knowledge": 1
+        }
+      }
+    },
+    {
+      "name": "tfidf @ test",
+      "n": 800,
+      "route_accuracy": 0.9475,
+      "exact_accuracy": 0.6713,
+      "route_macro_f1": 0.88,
+      "valid_outputs": 1.0,
+      "ms_per_request": 2.3,
+      "confusion": {
+        "orders": {
+          "orders": 319,
+          "knowledge": 1
+        },
+        "tickets": {
+          "tickets": 318,
+          "knowledge": 1,
+          "other": 1
+        },
+        "knowledge": {
+          "other": 23,
+          "orders": 13,
+          "knowledge": 44
+        },
+        "other": {
+          "other": 77,
+          "tickets": 3
+        }
+      }
+    },
+    {
+      "name": "tfidf @ deskpilot",
+      "n": 37,
+      "route_accuracy": 0.9459,
+      "exact_accuracy": 0.9459,
+      "route_macro_f1": 0.8801,
+      "valid_outputs": 1.0,
+      "ms_per_request": 2.2,
+      "confusion": {
+        "orders": {
+          "orders": 18
+        },
+        "tickets": {
+          "tickets": 7
+        },
+        "knowledge": {
+          "knowledge": 9,
+          "orders": 1
+        },
+        "other": {
+          "other": 1,
+          "tickets": 1
+        }
+      }
+    },
+    {
+      "name": "lora @ test",
+      "n": 800,
+      "route_accuracy": 0.9888,
+      "exact_accuracy": 0.9563,
+      "route_macro_f1": 0.9888,
+      "valid_outputs": 0.995,
+      "ms_per_request": 396.4,
+      "confusion": {
+        "orders": {
+          "orders": 316,
+          "invalid": 4
+        },
+        "tickets": {
+          "tickets": 315,
+          "other": 4,
+          "knowledge": 1
+        },
+        "knowledge": {
+          "knowledge": 80
+        },
+        "other": {
+          "other": 80
+        }
+      }
+    },
+    {
+      "name": "lora @ deskpilot",
+      "n": 37,
+      "route_accuracy": 1.0,
+      "exact_accuracy": 1.0,
+      "route_macro_f1": 1.0,
+      "valid_outputs": 1.0,
+      "ms_per_request": 457.0,
+      "confusion": {
+        "orders": {
+          "orders": 18
+        },
+        "tickets": {
+          "tickets": 7
+        },
+        "knowledge": {
+          "knowledge": 10
+        },
+        "other": {
+          "other": 2
+        }
+      }
+    },
+    {
+      "name": "base @ test",
+      "n": 800,
+      "route_accuracy": 0.63,
+      "exact_accuracy": 0.52,
+      "route_macro_f1": 0.5329,
+      "valid_outputs": 0.7725,
+      "ms_per_request": 1600.2,
+      "confusion": {
+        "orders": {
+          "tickets": 39,
+          "invalid": 42,
+          "orders": 239
+        },
+        "tickets": {
+          "tickets": 232,
+          "invalid": 83,
+          "orders": 5
+        },
+        "knowledge": {
+          "tickets": 63,
+          "invalid": 13,
+          "orders": 4
+        },
+        "other": {
+          "invalid": 44,
+          "other": 33,
+          "tickets": 2,
+          "orders": 1
+        }
+      }
+    },
+    {
+      "name": "base @ deskpilot",
+      "n": 37,
+      "route_accuracy": 0.5946,
+      "exact_accuracy": 0.4865,
+      "route_macro_f1": 0.3744,
+      "valid_outputs": 0.7838,
+      "ms_per_request": 1752.2,
+      "confusion": {
+        "orders": {
+          "orders": 17,
+          "tickets": 1
+        },
+        "tickets": {
+          "tickets": 5,
+          "invalid": 2
+        },
+        "knowledge": {
+          "tickets": 6,
+          "invalid": 4
+        },
+        "other": {
+          "invalid": 2
+        }
+      }
+    }
+  ],
+  "errors": {
+    "keywords @ test": [
+      {
+        "text": "Whta's the priority of TCK-2540?",
+        "gold": "tickets/get_ticket",
+        "pred": "tickets/update_ticket"
+      },
+      {
+        "text": "Can you help me with my homework",
+        "gold": "other/-",
+        "pred": "knowledge/-"
+      },
+      {
+        "text": "Hi, Update TCK-2931: status pending",
+        "gold": "tickets/update_ticket",
+        "pred": "other/-"
+      },
+      {
+        "text": "hey, Complaints from lena@shop.test?",
+        "gold": "tickets/search_tickets",
+        "pred": "other/-"
+      },
+      {
+        "text": "make a high tickte for sara@shop.test: wrong item sent",
+        "gold": "tickets/create_ticket",
+        "pred": "orders/search_orders"
+      },
+      {
+        "text": "customer of ord-1304 should get $45 back",
+        "gold": "orders/refund_order",
+        "pred": "orders/get_order"
+      },
+      {
+        "text": "Hi, Complaints from aisha@mail.test?",
+        "gold": "tickets/search_tickets",
+        "pred": "other/-"
+      },
+      {
+        "text": "Hi, Annule la commande ORD-1935",
+        "gold": "orders/cancel_order",
+        "pred": "other/-"
+      },
+      {
+        "text": "qucik one: thank you, that's all",
+        "gold": "other/-",
+        "pred": "knowledge/-"
+      },
+      {
+        "text": "Quick one: Can you help me with my homework",
+        "gold": "other/-",
+        "pred": "knowledge/-"
+      },
+      {
+        "text": "hey, What's the priority of TCK-2972?",
+        "gold": "tickets/get_ticket",
+        "pred": "other/-"
+      },
+      {
+        "text": "Reopne TCK-2609",
+        "gold": "tickets/update_ticket",
+        "pred": "tickets/get_ticket"
+      },
+      {
+        "text": "Don't ship ROD-1597, cancel it",
+        "gold": "orders/cancel_order",
+        "pred": "knowledge/-"
+      },
+      {
+        "text": "hey, ORD-1641 status?",
+        "gold": "orders/get_order",
+        "pred": "other/-"
+      },
+      {
+        "text": "Hi, Show the last five orders",
+        "gold": "orders/search_orders",
+        "pred": "other/-"
+      },
+      {
+        "text": "Can you help me with my homweork?",
+        "gold": "other/-",
+        "pred": "knowledge/-"
+      },
+      {
+        "text": "hey, pull up ticket tck-2374",
+        "gold": "tickets/get_ticket",
+        "pred": "other/-"
+      },
+      {
+        "text": "Hi, Do we have shipped orders today?",
+        "gold": "orders/search_orders",
+        "pred": "other/-"
+      },
+      {
+        "text": "What's the priority of TCK-2001?",
+        "gold": "tickets/get_ticket",
+        "pred": "tickets/update_ticket"
+      },
+      {
+        "text": "hey, oD we accept PayPal?",
+        "gold": "knowledge/-",
+        "pred": "other/-"
+      },
+      {
+        "text": "Hi, ORD-1337 ka status batao",
+        "gold": "orders/get_order",
+        "pred": "other/-"
+      },
+      {
+        "text": "quick one: tell me a joke",
+        "gold": "other/-",
+        "pred": "knowledge/-"
+      },
+      {
+        "text": "hey, What tickets are waiting?",
+        "gold": "tickets/search_tickets",
+        "pred": "other/-"
+      },
+      {
+        "text": "Hi, List the orders of lena@shop.test",
+        "gold": "orders/search_orders",
+        "pred": "other/-"
+      },
+      {
+        "text": "Customer of ORD-1986 should get 10 back",
+        "gold": "orders/refund_order",
+        "pred": "orders/get_order"
+      }
+    ],
+    "keywords @ deskpilot": [
+      {
+        "text": "Write me a poem about the sea",
+        "gold": "other/-",
+        "pred": "knowledge/-"
+      }
+    ],
+    "tfidf @ test": [
+      {
+        "text": "Can you help? Compensate ORD-1921 with $25, it arrived damaged",
+        "gold": "orders/refund_order",
+        "pred": "orders/cancel_order"
+      },
+      {
+        "text": "Whta's the priority of TCK-2540?",
+        "gold": "tickets/get_ticket",
+        "pred": "tickets/update_ticket"
+      },
+      {
+        "text": "pls reopen tck-2278",
+        "gold": "tickets/update_ticket",
+        "pred": "tickets/get_ticket"
+      },
+      {
+        "text": "Quick one: Do we accept Apple Pay?",
+        "gold": "knowledge/-",
+        "pred": "other/-"
+      },
+      {
+        "text": "Hi, Update TCK-2931: status pending",
+        "gold": "tickets/update_ticket",
+        "pred": "tickets/get_ticket"
+      },
+      {
+        "text": "hey, Can a refund go to a different card?",
+        "gold": "knowledge/-",
+        "pred": "orders/refund_order"
+      },
+      {
+        "text": "hey, Complaints from lena@shop.test?",
+        "gold": "tickets/search_tickets",
+        "pred": "tickets/create_ticket"
+      },
+      {
+        "text": "Can you help? Annule la commande ORD-1145",
+        "gold": "orders/cancel_order",
+        "pred": "orders/get_order"
+      },
+      {
+        "text": "Reopen TCK-2940",
+        "gold": "tickets/update_ticket",
+        "pred": "tickets/get_ticket"
+      },
+      {
+        "text": "Hi, Complaints from aisha@mail.test?",
+        "gold": "tickets/search_tickets",
+        "pred": "tickets/create_ticket"
+      },
+      {
+        "text": "pls Annule la commande ORD-1521",
+        "gold": "orders/cancel_order",
+        "pred": "orders/get_order"
+      },
+      {
+        "text": "Hi, Annule la commande ORD-1935",
+        "gold": "orders/cancel_order",
+        "pred": "orders/get_order"
+      },
+      {
+        "text": "reopen tck-2201",
+        "gold": "tickets/update_ticket",
+        "pred": "tickets/get_ticket"
+      },
+      {
+        "text": "Hi, Compensate ORD-1895 with $120, the seam is torn",
+        "gold": "orders/refund_order",
+        "pred": "orders/cancel_order"
+      },
+      {
+        "text": "Hi, Was anything refunded on ORD-1375 already?",
+        "gold": "orders/get_order",
+        "pred": "orders/refund_order"
+      },
+      {
+        "text": "pls Complaints from omar@example.com?",
+        "gold": "tickets/search_tickets",
+        "pred": "tickets/create_ticket"
+      },
+      {
+        "text": "Annule la commande ORD-1967",
+        "gold": "orders/cancel_order",
+        "pred": "orders/get_order"
+      },
+      {
+        "text": "hey, What's the priority of TCK-2972?",
+        "gold": "tickets/get_ticket",
+        "pred": "tickets/update_ticket"
+      },
+      {
+        "text": "Who pays customs fees outside the EU?",
+        "gold": "knowledge/-",
+        "pred": "other/-"
+      },
+      {
+        "text": "Annule la commande ORD-1538",
+        "gold": "orders/cancel_order",
+        "pred": "orders/get_order"
+      },
+      {
+        "text": "Was anything refunded on ORD-1546 already?",
+        "gold": "orders/get_order",
+        "pred": "orders/refund_order"
+      },
+      {
+        "text": "Reopne TCK-2609",
+        "gold": "tickets/update_ticket",
+        "pred": "tickets/get_ticket"
+      },
+      {
+        "text": "hi, compensate ord-1231 with usd 120, a strap was missing",
+        "gold": "orders/refund_order",
+        "pred": "orders/cancel_order"
+      },
+      {
+        "text": "annule al commande ord-1768",
+        "gold": "orders/cancel_order",
+        "pred": "orders/get_order"
+      },
+      {
+        "text": "Can you help? Was anything refunded on ORD-1940 already?",
+        "gold": "orders/get_order",
+        "pred": "orders/refund_order"
+      }
+    ],
+    "tfidf @ deskpilot": [
+      {
+        "text": "A customer got a damaged item worth $20, do they need to send it back?",
+        "gold": "knowledge/-",
+        "pred": "orders/refund_order"
+      },
+      {
+        "text": "Write me a poem about the sea",
+        "gold": "other/-",
+        "pred": "tickets/search_tickets"
+      }
+    ],
+    "lora @ test": [
+      {
+        "text": "pls reopen tck-2278",
+        "gold": "tickets/update_ticket",
+        "pred": "tickets/get_ticket"
+      },
+      {
+        "text": "Reopen TCK-2940",
+        "gold": "tickets/update_ticket",
+        "pred": "tickets/get_ticket"
+      },
+      {
+        "text": "hi, compensate ord-1231 with usd 120, a strap was missing",
+        "gold": "orders/refund_order",
+        "pred": null
+      },
+      {
+        "text": "Don't ship ROD-1597, cancel it",
+        "gold": "orders/cancel_order",
+        "pred": null
+      },
+      {
+        "text": "Reopen TCK-2184",
+        "gold": "tickets/update_ticket",
+        "pred": "tickets/get_ticket"
+      },
+      {
+        "text": "pls Reopen TCK-2053",
+        "gold": "tickets/update_ticket",
+        "pred": "tickets/get_ticket"
+      },
+      {
+        "text": "Reopen TCK-2352",
+        "gold": "tickets/update_ticket",
+        "pred": "tickets/get_ticket"
+      },
+      {
+        "text": "Complaints from jonas@mail.test",
+        "gold": "tickets/search_tickets",
+        "pred": "other/-"
+      },
+      {
+        "text": "Compensate ORD-1310 with $12.5, duplicate order",
+        "gold": "orders/refund_order",
+        "pred": "orders/cancel_order"
+      },
+      {
+        "text": "Complaints from omar@mail.test?",
+        "gold": "tickets/search_tickets",
+        "pred": "other/-"
+      },
+      {
+        "text": "Quick one: Reopen TCK-2184",
+        "gold": "tickets/update_ticket",
+        "pred": "tickets/get_ticket"
+      },
+      {
+        "text": "hi, reopen tck-2929",
+        "gold": "tickets/update_ticket",
+        "pred": "tickets/get_ticket"
+      },
+      {
+        "text": "Reopen TCK-2014",
+        "gold": "tickets/update_ticket",
+        "pred": "tickets/get_ticket"
+      },
+      {
+        "text": "pls Reopen TCK-2876",
+        "gold": "tickets/update_ticket",
+        "pred": "tickets/get_ticket"
+      },
+      {
+        "text": "Can you help? Reopen TCK-2598",
+        "gold": "tickets/update_ticket",
+        "pred": "tickets/get_ticket"
+      },
+      {
+        "text": "Can you help? Reopen TCK-2793",
+        "gold": "tickets/update_ticket",
+        "pred": "tickets/get_ticket"
+      },
+      {
+        "text": "Reopen TCK-2266",
+        "gold": "tickets/update_ticket",
+        "pred": "tickets/get_ticket"
+      },
+      {
+        "text": "pls Reopen TCK-2958",
+        "gold": "tickets/update_ticket",
+        "pred": "tickets/get_ticket"
+      },
+      {
+        "text": "hey, Reopen TCK-2772",
+        "gold": "tickets/update_ticket",
+        "pred": "tickets/get_ticket"
+      },
+      {
+        "text": "Compensate ORD-1971 with USD 120, the customer changed their mind",
+        "gold": "orders/refund_order",
+        "pred": null
+      },
+      {
+        "text": "Reopen TCK-2836",
+        "gold": "tickets/update_ticket",
+        "pred": "tickets/get_ticket"
+      },
+      {
+        "text": "Hi, Compensate ORD-1504 with USD 20, the customer changed their mind",
+        "gold": "orders/refund_order",
+        "pred": "orders/cancel_order"
+      },
+      {
+        "text": "What is CTK-2971 about?",
+        "gold": "tickets/get_ticket",
+        "pred": "knowledge/-"
+      },
+      {
+        "text": "Reopen TCK-2241",
+        "gold": "tickets/update_ticket",
+        "pred": "tickets/get_ticket"
+      },
+      {
+        "text": "pls Reopen TCK-2417",
+        "gold": "tickets/update_ticket",
+        "pred": "tickets/get_ticket"
+      }
+    ],
+    "lora @ deskpilot": [],
+    "base @ test": [
+      {
+        "text": "Can you help? Compensate ORD-1921 with $25, it arrived damaged",
+        "gold": "orders/refund_order",
+        "pred": "tickets/update_ticket"
+      },
+      {
+        "text": "Can you help me with my homework",
+        "gold": "other/-",
+        "pred": null
+      },
+      {
+        "text": "hi, tell me a joke",
+        "gold": "other/-",
+        "pred": null
+      },
+      {
+        "text": "Can you help? Don't ship ORD-1686, cancel it",
+        "gold": "orders/cancel_order",
+        "pred": null
+      },
+      {
+        "text": "pls reopen tck-2278",
+        "gold": "tickets/update_ticket",
+        "pred": null
+      },
+      {
+        "text": "Quick one: Do we accept Apple Pay?",
+        "gold": "knowledge/-",
+        "pred": "tickets/get_ticket"
+      },
+      {
+        "text": "pls list the orders of mei@mail.test",
+        "gold": "orders/search_orders",
+        "pred": "orders/get_order"
+      },
+      {
+        "text": "Do we have refunded orders today?",
+        "gold": "orders/search_orders",
+        "pred": "orders/refund_order"
+      },
+      {
+        "text": "Quick one: Don't ship ORD-1645, cancel it",
+        "gold": "orders/cancel_order",
+        "pred": null
+      },
+      {
+        "text": "hey, Can a refund go to a different card?",
+        "gold": "knowledge/-",
+        "pred": "tickets/update_ticket"
+      },
+      {
+        "text": "Quick one: How do I change a customer's email address?",
+        "gold": "knowledge/-",
+        "pred": "tickets/update_ticket"
+      },
+      {
+        "text": "hey, Complaints from lena@shop.test?",
+        "gold": "tickets/search_tickets",
+        "pred": null
+      },
+      {
+        "text": "customer of ord-1304 should get $45 back",
+        "gold": "orders/refund_order",
+        "pred": null
+      },
+      {
+        "text": "Reopen TCK-2940",
+        "gold": "tickets/update_ticket",
+        "pred": null
+      },
+      {
+        "text": "Hi, Complaints from aisha@mail.test?",
+        "gold": "tickets/search_tickets",
+        "pred": null
+      },
+      {
+        "text": "reopen tck-2201",
+        "gold": "tickets/update_ticket",
+        "pred": null
+      },
+      {
+        "text": "Can you help? What does the warranty not cover?",
+        "gold": "knowledge/-",
+        "pred": null
+      },
+      {
+        "text": "Hi, Compensate ORD-1895 with $120, the seam is torn",
+        "gold": "orders/refund_order",
+        "pred": "tickets/update_ticket"
+      },
+      {
+        "text": "Hi, Was anything refunded on ORD-1375 already?",
+        "gold": "orders/get_order",
+        "pred": "tickets/update_ticket"
+      },
+      {
+        "text": "do we have shipped orders today?",
+        "gold": "orders/search_orders",
+        "pred": "orders/get_order"
+      },
+      {
+        "text": "pls Complaints from omar@example.com?",
+        "gold": "tickets/search_tickets",
+        "pred": null
+      },
+      {
+        "text": "Quick one: Can you help me with my homework",
+        "gold": "other/-",
+        "pred": null
+      },
+      {
+        "text": "Who pays customs fees outside the EU?",
+        "gold": "knowledge/-",
+        "pred": "tickets/get_ticket"
+      },
+      {
+        "text": "Was anything refunded on ORD-1546 already?",
+        "gold": "orders/get_order",
+        "pred": "tickets/update_ticket"
+      },
+      {
+        "text": "Reopne TCK-2609",
+        "gold": "tickets/update_ticket",
+        "pred": "tickets/get_ticket"
+      }
+    ],
+    "base @ deskpilot": [
+      {
+        "text": "How much of ORD-1006 can still be refunded?",
+        "gold": "orders/get_order",
+        "pred": "orders/refund_order"
+      },
+      {
+        "text": "List the orders of sara@example.com",
+        "gold": "orders/search_orders",
+        "pred": "orders/get_order"
+      },
+      {
+        "text": "Show pending orders for daniel@example.com",
+        "gold": "orders/search_orders",
+        "pred": "orders/get_order"
+      },
+      {
+        "text": "Which orders are cancelled right now?",
+        "gold": "orders/search_orders",
+        "pred": "orders/cancel_order"
+      },
+      {
+        "text": "Refund $20 on ORD-1002, the jacket seam is torn",
+        "gold": "orders/refund_order",
+        "pred": "tickets/update_ticket"
+      },
+      {
+        "text": "Set TCK-2002 to urgent priority",
+        "gold": "tickets/update_ticket",
+        "pred": null
+      },
+      {
+        "text": "Close ticket TCK-2001",
+        "gold": "tickets/update_ticket",
+        "pred": null
+      },
+      {
+        "text": "How long do refunds take to show up at the bank?",
+        "gold": "knowledge/-",
+        "pred": "tickets/get_ticket"
+      },
+      {
+        "text": "Is shipping free?",
+        "gold": "knowledge/-",
+        "pred": "tickets/get_ticket"
+      },
+      {
+        "text": "How much does express shipping cost?",
+        "gold": "knowledge/-",
+        "pred": "tickets/get_ticket"
+      },
+      {
+        "text": "How many days do customers have to return an item?",
+        "gold": "knowledge/-",
+        "pred": null
+      },
+      {
+        "text": "What warranty do backpacks have?",
+        "gold": "knowledge/-",
+        "pred": null
+      },
+      {
+        "text": "A customer got a damaged item worth $20, do they need to send it back?",
+        "gold": "knowledge/-",
+        "pred": null
+      },
+      {
+        "text": "What are the support opening hours?",
+        "gold": "knowledge/-",
+        "pred": null
+      },
+      {
+        "text": "Do we accept PayPal?",
+        "gold": "knowledge/-",
+        "pred": "tickets/get_ticket"
+      },
+      {
+        "text": "Do we sell bicycles and e-bikes?",
+        "gold": "knowledge/-",
+        "pred": "tickets/get_ticket"
+      },
+      {
+        "text": "ریفنڈ بینک میں کتنے دنوں میں آتا ہے؟",
+        "gold": "knowledge/-",
+        "pred": "tickets/get_ticket"
+      },
+      {
+        "text": "Hi there!",
+        "gold": "other/-",
+        "pred": null
+      },
+      {
+        "text": "Write me a poem about the sea",
+        "gold": "other/-",
+        "pred": null
+      }
+    ]
+  }
+}

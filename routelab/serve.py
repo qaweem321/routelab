@@ -25,7 +25,7 @@ def create_app(router=None) -> FastAPI:  # noqa: ANN001
         if state["router"] is None:
             state["router"] = LLMRouter(
                 os.environ.get("ROUTER_BASE", DEFAULT_BASE),
-                os.environ.get("ROUTER_ADAPTER", "models/router-lora"),
+                os.environ.get("ROUTER_ADAPTER", "adapter"),
                 threads=int(os.environ.get("ROUTER_THREADS", "0")) or None,
             )
         return state["router"]

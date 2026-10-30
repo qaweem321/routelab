@@ -1,7 +1,7 @@
 """Write a Hugging Face model card for the adapter from its real training log and eval results.
 
-python -m routelab.card                      # writes models/router-lora/README.md
-hf upload <you>/deskpilot-router-lora models/router-lora   # optional: publish (needs an HF token)
+python -m routelab.card                      # writes adapter/README.md
+hf upload <you>/deskpilot-router-lora adapter   # optional: publish (needs an HF token)
 """
 
 import argparse
@@ -58,7 +58,7 @@ training templates.
 
 ```python
 from routelab.lora import LLMRouter
-router = LLMRouter("{base}", "models/router-lora")
+router = LLMRouter("{base}", "adapter")  # base model + this adapter
 router.predict("Refund $20 on ORD-1002, the seam is torn")  # Label(route='orders', tool='refund_order')
 ```
 """
@@ -66,7 +66,7 @@ router.predict("Refund $20 on ORD-1002, the seam is torn")  # Label(route='order
 
 def main() -> None:
     p = argparse.ArgumentParser()
-    p.add_argument("--adapter", default="models/router-lora")
+    p.add_argument("--adapter", default="adapter")
     p.add_argument("--results", default="reports/results.md")
     args = p.parse_args()
     adapter = Path(args.adapter)

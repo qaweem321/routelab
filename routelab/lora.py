@@ -17,13 +17,13 @@ from routelab.prompt import messages
 DEFAULT_BASE = "Qwen/Qwen2.5-0.5B-Instruct"
 
 
-def prompt_text(tokenizer: PreTrainedTokenizerBase, text: str) -> str:
-    return tokenizer.apply_chat_template(messages(text), tokenize=False, add_generation_prompt=True)
+def prompt_text(tokenizer: PreTrainedTokenizerBase, text: str, compact: bool = False) -> str:
+    return tokenizer.apply_chat_template(messages(text, compact), tokenize=False, add_generation_prompt=True)
 
 
-def encode_example(tokenizer: PreTrainedTokenizerBase, text: str, label: Label, max_len: int = 256) -> dict:
-    """Input = prompt + answer. Loss only on the answer tokens (prompt labels are -100)."""
-    prompt_ids = tokenizer(prompt_text(tokenizer, text), add_special_tokens=False)["input_ids"]
+def encode_example(tokenizer: PreTrainedTokenizerBase, text: str, label: Label, max_len: int = 128) -> dict:
+    """Input = compact prompt + answer. Loss only on the answer tokens (prompt labels are -100)."""
+    prompt_ids = tokenizer(prompt_text(tokenizer, text, compact=True), add_special_tokens=False)["input_ids"]
     answer_ids = tokenizer(label.to_json() + tokenizer.eos_token, add_special_tokens=False)["input_ids"]
     prompt_ids = prompt_ids[: max_len - len(answer_ids)]
     return {
@@ -74,10 +74,11 @@ class LLMRouter:
 
             model = PeftModel.from_pretrained(model, str(adapter)).merge_and_unload()
         self.model = model.eval()
+        self.compact = adapter is not None  # fine-tuned: short prompt; base model: full instructions
 
     @torch.inference_mode()
     def predict_batch(self, texts: list[str], max_new_tokens: int = 24) -> list[tuple[Label | None, str]]:
-        prompts = [prompt_text(self.tokenizer, t) for t in texts]
+        prompts = [prompt_text(self.tokenizer, t, self.compact) for t in texts]
         inputs = self.tokenizer(prompts, return_tensors="pt", padding=True, add_special_tokens=False)
         out = self.model.generate(
             **inputs,

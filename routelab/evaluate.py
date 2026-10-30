@@ -38,7 +38,7 @@ def main() -> None:
     p = argparse.ArgumentParser()
     p.add_argument("--routers", default="keywords,tfidf,base,lora")
     p.add_argument("--base", default=DEFAULT_BASE)
-    p.add_argument("--adapter", default="models/router-lora")
+    p.add_argument("--adapter", default="adapter")
     p.add_argument("--data", default="data")
     p.add_argument("--limit", type=int, default=0)
     p.add_argument("--out", default="reports")

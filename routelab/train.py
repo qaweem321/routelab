@@ -52,8 +52,9 @@ def load_model(base: str, qlora: bool):  # noqa: ANN201
 def main() -> None:
     p = argparse.ArgumentParser()
     p.add_argument("--base", default=DEFAULT_BASE)
+    p.add_argument("--base-name", default="", help="hub id to record when --base is a local folder")
     p.add_argument("--data", default="data")
-    p.add_argument("--out", default="models/router-lora")
+    p.add_argument("--out", default="adapter")
     p.add_argument("--epochs", type=float, default=1.0)
     p.add_argument("--limit", type=int, default=0, help="use only N training rows (quick runs)")
     p.add_argument("--rank", type=int, default=16)
@@ -70,7 +71,7 @@ def main() -> None:
     train_rows = read(Path(args.data) / "train.jsonl")
     if args.limit:
         train_rows = train_rows[: args.limit]
-    val_rows = read(Path(args.data) / "val.jsonl")
+    val_rows = read(Path(args.data) / "val.jsonl")[:120]  # eval loss only; keep it cheap on a CPU
 
     model = load_model(args.base, args.qlora)
     lora = LoraConfig(
@@ -85,7 +86,7 @@ def main() -> None:
     print(f"Trainable parameters: {trainable:,} of {total:,} ({100 * trainable / total:.2f}%)")
 
     training = TrainingArguments(
-        output_dir=f"{args.out}-checkpoints",
+        output_dir="models/checkpoints",
         num_train_epochs=args.epochs,
         per_device_train_batch_size=args.batch,
         per_device_eval_batch_size=args.batch,
@@ -114,11 +115,14 @@ def main() -> None:
 
     out = Path(args.out)
     model.save_pretrained(out)
-    tokenizer.padding_side = "left"
-    tokenizer.save_pretrained(out)
+    if args.base_name:  # record the hub id, not this machine's folder
+        config_path = out / "adapter_config.json"
+        config = json.loads(config_path.read_text())
+        config["base_model_name_or_path"] = args.base_name
+        config_path.write_text(json.dumps(config, indent=2))
     losses = [e for e in trainer.state.log_history if "loss" in e or "eval_loss" in e]
     info = {
-        "base": args.base,
+        "base": args.base_name or args.base,
         "qlora": args.qlora,
         "train_rows": len(train_rows),
         "epochs": args.epochs,
