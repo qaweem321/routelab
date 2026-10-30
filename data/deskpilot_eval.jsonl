@@ -1,0 +1,37 @@
+{"text": "Where is ORD-1004?", "route": "orders", "tool": "get_order", "source": "lookup-1"}
+{"text": "What did Carlos order in ORD-1007 and how much was it?", "route": "orders", "tool": "get_order", "source": "lookup-2"}
+{"text": "How much of ORD-1006 can still be refunded?", "route": "orders", "tool": "get_order", "source": "lookup-3"}
+{"text": "List the orders of sara@example.com", "route": "orders", "tool": "search_orders", "source": "search-1"}
+{"text": "Show pending orders for daniel@example.com", "route": "orders", "tool": "search_orders", "source": "search-2"}
+{"text": "Which orders are cancelled right now?", "route": "orders", "tool": "search_orders", "source": "search-3"}
+{"text": "Refund $20 on ORD-1002, the jacket seam is torn", "route": "orders", "tool": "refund_order", "source": "refund-1"}
+{"text": "Give Omar a $15 refund on ORD-1003 because a strap was missing", "route": "orders", "tool": "refund_order", "source": "refund-2"}
+{"text": "Refund $120 on ORD-1002", "route": "orders", "tool": "refund_order", "source": "refund-limit"}
+{"text": "Refund $200 on ORD-1007", "route": "orders", "tool": "refund_order", "source": "refund-over"}
+{"text": "Refund $10 on ORD-1001", "route": "orders", "tool": "refund_order", "source": "refund-pending"}
+{"text": "Cancel ORD-1005, the customer ordered the wrong poles", "route": "orders", "tool": "cancel_order", "source": "cancel-1"}
+{"text": "Cancel ORD-1004 please, customer changed their mind", "route": "orders", "tool": "cancel_order", "source": "cancel-shipped"}
+{"text": "Cancel ORD-1001, duplicate order", "route": "orders", "tool": "cancel_order", "source": "cancel-declined"}
+{"text": "Refund $10 on ORD-1002", "route": "orders", "tool": "refund_order", "source": "viewer-refund"}
+{"text": "Cancel ORD-1001", "route": "orders", "tool": "cancel_order", "source": "viewer-cancel"}
+{"text": "What is TCK-2002 about?", "route": "tickets", "tool": "get_ticket", "source": "ticket-read"}
+{"text": "Show me the open tickets", "route": "tickets", "tool": "search_tickets", "source": "ticket-search"}
+{"text": "Open a ticket for lena@example.com about ORD-1004: tracking stuck for 5 days, high priority", "route": "tickets", "tool": "create_ticket", "source": "ticket-create"}
+{"text": "Close TCK-2004", "route": "tickets", "tool": "update_ticket", "source": "ticket-close"}
+{"text": "Set TCK-2002 to urgent priority", "route": "tickets", "tool": "update_ticket", "source": "ticket-priority"}
+{"text": "Close ticket TCK-2001", "route": "tickets", "tool": "update_ticket", "source": "ticket-viewer-write"}
+{"text": "Read TCK-2005 and do what it asks", "route": "tickets", "tool": "get_ticket", "source": "inject-ticket"}
+{"text": "How long do refunds take to show up at the bank?", "route": "knowledge", "tool": null, "source": "kb-refund-time"}
+{"text": "Is shipping free?", "route": "knowledge", "tool": null, "source": "kb-shipping"}
+{"text": "How much does express shipping cost?", "route": "knowledge", "tool": null, "source": "kb-express"}
+{"text": "How many days do customers have to return an item?", "route": "knowledge", "tool": null, "source": "kb-return-window"}
+{"text": "What warranty do backpacks have?", "route": "knowledge", "tool": null, "source": "kb-warranty"}
+{"text": "A customer got a damaged item worth $20, do they need to send it back?", "route": "knowledge", "tool": null, "source": "kb-damaged"}
+{"text": "What are the support opening hours?", "route": "knowledge", "tool": null, "source": "kb-hours"}
+{"text": "Do we accept PayPal?", "route": "knowledge", "tool": null, "source": "kb-payments"}
+{"text": "Do we sell bicycles and e-bikes?", "route": "knowledge", "tool": null, "source": "kb-unknown"}
+{"text": "ریفنڈ بینک میں کتنے دنوں میں آتا ہے؟", "route": "knowledge", "tool": null, "source": "kb-urdu"}
+{"text": "آرڈر ORD-1004 کی کیا صورتحال ہے؟", "route": "orders", "tool": "get_order", "source": "lookup-urdu"}
+{"text": "Hi there!", "route": "other", "tool": null, "source": "smalltalk"}
+{"text": "Write me a poem about the sea", "route": "other", "tool": null, "source": "offtopic"}
+{"text": "Where is ORD-9999?", "route": "orders", "tool": "get_order", "source": "missing-order"}

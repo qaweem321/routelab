@@ -1,0 +1,800 @@
+{"text": "Can you help? Compensate ORD-1921 with $25, it arrived damaged", "route": "orders", "tool": "refund_order"}
+{"text": "Hi, Make a normal ticket for mei@mail.test: wants an invoice", "route": "tickets", "tool": "create_ticket"}
+{"text": "Whta's the priority of TCK-2540?", "route": "tickets", "tool": "get_ticket"}
+{"text": "Can you help me with my homework", "route": "other", "tool": null}
+{"text": "hi, tell me a joke", "route": "other", "tool": null}
+{"text": "Can you help? Don't ship ORD-1686, cancel it", "route": "orders", "tool": "cancel_order"}
+{"text": "hey, Start a ticket for dan@shop.test about wrong item sent", "route": "tickets", "tool": "create_ticket"}
+{"text": "pls reopen tck-2278", "route": "tickets", "tool": "update_ticket"}
+{"text": "Start a ticket for jonas@mail.test about jacket zip broken", "route": "tickets", "tool": "create_ticket"}
+{"text": "Quick one: Do we accept Apple Pay?", "route": "knowledge", "tool": null}
+{"text": "Can you help? Pull up ticket TCK-2503", "route": "tickets", "tool": "get_ticket"}
+{"text": "pls list the orders of mei@mail.test", "route": "orders", "tool": "search_orders"}
+{"text": "Do we have refunded orders today?", "route": "orders", "tool": "search_orders"}
+{"text": "Quick one: Don't ship ORD-1645, cancel it", "route": "orders", "tool": "cancel_order"}
+{"text": "Hi, Update TCK-2931: status pending", "route": "tickets", "tool": "update_ticket"}
+{"text": "hey, Can a refund go to a different card?", "route": "knowledge", "tool": null}
+{"text": "Quick one: How do I change a customer's email address?", "route": "knowledge", "tool": null}
+{"text": "pls What tickets are waiting", "route": "tickets", "tool": "search_tickets"}
+{"text": "hey, Complaints from lena@shop.test?", "route": "tickets", "tool": "search_tickets"}
+{"text": "Make a urgent ticket for mei@mail.test: jacket zip broken", "route": "tickets", "tool": "create_ticket"}
+{"text": "Can you help? Annule la commande ORD-1145", "route": "orders", "tool": "cancel_order"}
+{"text": "make a high tickte for sara@shop.test: wrong item sent", "route": "tickets", "tool": "create_ticket"}
+{"text": "customer of ord-1304 should get $45 back", "route": "orders", "tool": "refund_order"}
+{"text": "Reopen TCK-2940", "route": "tickets", "tool": "update_ticket"}
+{"text": "Hi, Complaints from aisha@mail.test?", "route": "tickets", "tool": "search_tickets"}
+{"text": "pls Annule la commande ORD-1521", "route": "orders", "tool": "cancel_order"}
+{"text": "Hi, Annule la commande ORD-1935", "route": "orders", "tool": "cancel_order"}
+{"text": "reopen tck-2201", "route": "tickets", "tool": "update_ticket"}
+{"text": "Can you help? What does the warranty not cover?", "route": "knowledge", "tool": null}
+{"text": "Hi, Compensate ORD-1895 with $120, the seam is torn", "route": "orders", "tool": "refund_order"}
+{"text": "Hi, Was anything refunded on ORD-1375 already?", "route": "orders", "tool": "get_order"}
+{"text": "do we have shipped orders today?", "route": "orders", "tool": "search_orders"}
+{"text": "pls Complaints from omar@example.com?", "route": "tickets", "tool": "search_tickets"}
+{"text": "can you help? i need the total of ord-1070", "route": "orders", "tool": "get_order"}
+{"text": "Quick one: Make a normal ticket fro aisha@shop.test: parcel never arrived", "route": "tickets", "tool": "create_ticket"}
+{"text": "qucik one: thank you, that's all", "route": "other", "tool": null}
+{"text": "Quick one: Can you help me with my homework", "route": "other", "tool": null}
+{"text": "ord-1363 status?", "route": "orders", "tool": "get_order"}
+{"text": "Annule la commande ORD-1967", "route": "orders", "tool": "cancel_order"}
+{"text": "hey, What's the priority of TCK-2972?", "route": "tickets", "tool": "get_ticket"}
+{"text": "Who pays customs fees outside the EU?", "route": "knowledge", "tool": null}
+{"text": "Annule la commande ORD-1538", "route": "orders", "tool": "cancel_order"}
+{"text": "Was anything refunded on ORD-1546 already?", "route": "orders", "tool": "get_order"}
+{"text": "Reopne TCK-2609", "route": "tickets", "tool": "update_ticket"}
+{"text": "ORD-1932 status?", "route": "orders", "tool": "get_order"}
+{"text": "hi, compensate ord-1231 with usd 120, a strap was missing", "route": "orders", "tool": "refund_order"}
+{"text": "Refund 49.99 on ORD-1961", "route": "orders", "tool": "refund_order"}
+{"text": "What is TCK-2650 about?", "route": "tickets", "tool": "get_ticket"}
+{"text": "Compensate ORD-1102 with USD 80, a srtap was missing", "route": "orders", "tool": "refund_order"}
+{"text": "Hello there", "route": "other", "tool": null}
+{"text": "annule al commande ord-1768", "route": "orders", "tool": "cancel_order"}
+{"text": "Don't ship ROD-1597, cancel it", "route": "orders", "tool": "cancel_order"}
+{"text": "hey, ORD-1641 status?", "route": "orders", "tool": "get_order"}
+{"text": "Quick one: ORD-1675 status?", "route": "orders", "tool": "get_order"}
+{"text": "Quick one: Compensate ORD-1406 with USD 49.99, it arrived damaged", "route": "orders", "tool": "refund_order"}
+{"text": "Hi, Show the last five orders", "route": "orders", "tool": "search_orders"}
+{"text": "Can you help? Was anything refunded on ORD-1940 already?", "route": "orders", "tool": "get_order"}
+{"text": "pls Make a normal ticket for priya@shop.test: jacket zip broken", "route": "tickets", "tool": "create_ticket"}
+{"text": "What is TCK-2782 about?", "route": "tickets", "tool": "get_ticket"}
+{"text": "Compensate ORD-1595 with USD 5, it arrived late", "route": "orders", "tool": "refund_order"}
+{"text": "hey, was anything refunded on ord-1930 already?", "route": "orders", "tool": "get_order"}
+{"text": "Can you help? Show the last five orders", "route": "orders", "tool": "search_orders"}
+{"text": "Can you help me with my homweork?", "route": "other", "tool": null}
+{"text": "compensate ord-1135 with $30, a strap was missing", "route": "orders", "tool": "refund_order"}
+{"text": "hey, pull up ticket tck-2374", "route": "tickets", "tool": "get_ticket"}
+{"text": "Hi, Do we have shipped orders today?", "route": "orders", "tool": "search_orders"}
+{"text": "Do we accept Apple Pay?", "route": "knowledge", "tool": null}
+{"text": "What's the priority of TCK-2001?", "route": "tickets", "tool": "get_ticket"}
+{"text": "hey, oD we accept PayPal?", "route": "knowledge", "tool": null}
+{"text": "compensate ord-1187 with 5, a strap was missing", "route": "orders", "tool": "refund_order"}
+{"text": "Hi, ORD-1337 ka status batao", "route": "orders", "tool": "get_order"}
+{"text": "Quick one: Do we accept PayPal", "route": "knowledge", "tool": null}
+{"text": "Make a low ticket for omar@mail.test: tracking stuck for 5 days", "route": "tickets", "tool": "create_ticket"}
+{"text": "Update TCK-2458: status open", "route": "tickets", "tool": "update_ticket"}
+{"text": "hey, Who pays customs fees outside the EU?", "route": "knowledge", "tool": null}
+{"text": "quick one: tell me a joke", "route": "other", "tool": null}
+{"text": "pls Complaints from dan@shop.test?", "route": "tickets", "tool": "search_tickets"}
+{"text": "Complaints from jonas@shop.test?", "route": "tickets", "tool": "search_tickets"}
+{"text": "Don't ship ORD-1443, cancel it", "route": "orders", "tool": "cancel_order"}
+{"text": "hey, What tickets are waiting?", "route": "tickets", "tool": "search_tickets"}
+{"text": "Hi, List the orders of lena@shop.test", "route": "orders", "tool": "search_orders"}
+{"text": "Start a ticket for tom@example.com about jacket zip broken", "route": "tickets", "tool": "create_ticket"}
+{"text": "pls what tickets are waiting?", "route": "tickets", "tool": "search_tickets"}
+{"text": "Make a normal ticket for jonas@mail.test: tracking stuck for 5 days", "route": "tickets", "tool": "create_ticket"}
+{"text": "pls ord-1204 status?", "route": "orders", "tool": "get_order"}
+{"text": "Customer of ORD-1986 should get 10 back", "route": "orders", "tool": "refund_order"}
+{"text": "annule la commande ord-1378", "route": "orders", "tool": "cancel_order"}
+{"text": "Hi, Reopen TCK-2322", "route": "tickets", "tool": "update_ticket"}
+{"text": "quick one: ord-1274 ka status batao", "route": "orders", "tool": "get_order"}
+{"text": "Do we accept PayPal", "route": "knowledge", "tool": null}
+{"text": "hey, What's the priority of TCK-2061?", "route": "tickets", "tool": "get_ticket"}
+{"text": "Hi, Can you help me with my homework", "route": "other", "tool": null}
+{"text": "Annule la commande ORD-1703", "route": "orders", "tool": "cancel_order"}
+{"text": "Can you help? Update TCK-2678: status closed", "route": "tickets", "tool": "update_ticket"}
+{"text": "annule la commande ord-1103", "route": "orders", "tool": "cancel_order"}
+{"text": "hi, customer of ord-1773 should get usd 25 back", "route": "orders", "tool": "refund_order"}
+{"text": "pls Can you help me with ym homework?", "route": "other", "tool": null}
+{"text": "What's the priority of TCK-2876?", "route": "tickets", "tool": "get_ticket"}
+{"text": "ORD-1184 status?", "route": "orders", "tool": "get_order"}
+{"text": "can you help? thank you, that's all", "route": "other", "tool": null}
+{"text": "Hi, What does the warranty not cover?", "route": "knowledge", "tool": null}
+{"text": "hey, What is TCK-2371 about?", "route": "tickets", "tool": "get_ticket"}
+{"text": "Update TCK-2944: status pending", "route": "tickets", "tool": "update_ticket"}
+{"text": "Quick one: Reopen TCK-2131", "route": "tickets", "tool": "update_ticket"}
+{"text": "can you help? what does the warranty not cover?", "route": "knowledge", "tool": null}
+{"text": "Customer of ORD-1275 should get $60 back", "route": "orders", "tool": "refund_order"}
+{"text": "Reopen TCK-2184", "route": "tickets", "tool": "update_ticket"}
+{"text": "hey, What's the priority of TCK-2483?", "route": "tickets", "tool": "get_ticket"}
+{"text": "can you help? do we have refunded orders today?", "route": "orders", "tool": "search_orders"}
+{"text": "Can you help? What's the priority of TCK-2967?", "route": "tickets", "tool": "get_ticket"}
+{"text": "pls Cancel ORD-1075", "route": "orders", "tool": "cancel_order"}
+{"text": "quick one: show urgent tickets", "route": "tickets", "tool": "search_tickets"}
+{"text": "pls List the orders of tom@mail.test", "route": "orders", "tool": "search_orders"}
+{"text": "Cancel ORD-1801", "route": "orders", "tool": "cancel_order"}
+{"text": "Compensate ORD-1684 with 10, it arrived late", "route": "orders", "tool": "refund_order"}
+{"text": "Hi, What's the priority of TCK-2052?", "route": "tickets", "tool": "get_ticket"}
+{"text": "Can you help? Customer of ORD-1234 should get $12.5 back", "route": "orders", "tool": "refund_order"}
+{"text": "pls Reopen TCK-2053", "route": "tickets", "tool": "update_ticket"}
+{"text": "hey, Do we have pending orders today?", "route": "orders", "tool": "search_orders"}
+{"text": "Customer of ORD-1703 should get USD 10 back", "route": "orders", "tool": "refund_order"}
+{"text": "hey, Annule la commande ORD-1596", "route": "orders", "tool": "cancel_order"}
+{"text": "pls Can you help me wtih my homework?", "route": "other", "tool": null}
+{"text": "Quick one: Complaints from priya@mail.test", "route": "tickets", "tool": "search_tickets"}
+{"text": "Show all orders for priya@shop.test", "route": "orders", "tool": "search_orders"}
+{"text": "Hi, List the orders of dan@shop.test", "route": "orders", "tool": "search_orders"}
+{"text": "Can you help? Show urgent tickets", "route": "tickets", "tool": "search_tickets"}
+{"text": "pls List the orders of carlos@shop.test", "route": "orders", "tool": "search_orders"}
+{"text": "Complaints from sara@mail.test?", "route": "tickets", "tool": "search_tickets"}
+{"text": "Can you help? Do we have shipped orders today?", "route": "orders", "tool": "search_orders"}
+{"text": "Quick one: Refund $30 on ORD-1316", "route": "orders", "tool": "refund_order"}
+{"text": "Quick one: Who pays customs fees outside the EU?", "route": "knowledge", "tool": null}
+{"text": "hey, Complaints from lena@mail.test?", "route": "tickets", "tool": "search_tickets"}
+{"text": "Customer of ORD-1956 should get USD 5 back", "route": "orders", "tool": "refund_order"}
+{"text": "hey, reopen tck-2598", "route": "tickets", "tool": "update_ticket"}
+{"text": "Complaints from dan@example.com?", "route": "tickets", "tool": "search_tickets"}
+{"text": "Quick one: Tell me a ojke", "route": "other", "tool": null}
+{"text": "Compensate ORD-1048 with 120, wrong size", "route": "orders", "tool": "refund_order"}
+{"text": "Reopen TCK-2352", "route": "tickets", "tool": "update_ticket"}
+{"text": "update tck-2667: status closed", "route": "tickets", "tool": "update_ticket"}
+{"text": "ORD-1086 ka status batao", "route": "orders", "tool": "get_order"}
+{"text": "Hi, Reopen TCK-2066", "route": "tickets", "tool": "update_ticket"}
+{"text": "Customer of ORD-1117 should get $25 back", "route": "orders", "tool": "refund_order"}
+{"text": "pls Do we have refunded orders today?", "route": "orders", "tool": "search_orders"}
+{"text": "quick noe: thank you, that's all", "route": "other", "tool": null}
+{"text": "Annule la commande ORD-1789", "route": "orders", "tool": "cancel_order"}
+{"text": "pls customer of ord-1906 should get usd 45 back", "route": "orders", "tool": "refund_order"}
+{"text": "hey, Start a ticket for dan@example.com about charged twice", "route": "tickets", "tool": "create_ticket"}
+{"text": "pls what does the warranty not cover?", "route": "knowledge", "tool": null}
+{"text": "hey, Show the last five orders", "route": "orders", "tool": "search_orders"}
+{"text": "Hi, Make a normal ticket for carlos@shop.test: jacket zip broken", "route": "tickets", "tool": "create_ticket"}
+{"text": "pls update tck-2223: status open", "route": "tickets", "tool": "update_ticket"}
+{"text": "Don't ship ORD-1942, cancel it", "route": "orders", "tool": "cancel_order"}
+{"text": "Hi, Complaints from tom@example.com?", "route": "tickets", "tool": "search_tickets"}
+{"text": "hi, ord-1298 ka status batao", "route": "orders", "tool": "get_order"}
+{"text": "Quick one: Do we accept bank transfer?", "route": "knowledge", "tool": null}
+{"text": "List the orders of aisha@example.com", "route": "orders", "tool": "search_orders"}
+{"text": "Show all orders for carlos@example.com", "route": "orders", "tool": "search_orders"}
+{"text": "hey, thank you, thta's all", "route": "other", "tool": null}
+{"text": "Can you help? Don't ship ORD-1240, cancel it", "route": "orders", "tool": "cancel_order"}
+{"text": "hey, what tickets are waiting?", "route": "tickets", "tool": "search_tickets"}
+{"text": "pls Do we accept PayPal", "route": "knowledge", "tool": null}
+{"text": "hey, thank you, that's all", "route": "other", "tool": null}
+{"text": "Show all orders for priya@mail.test", "route": "orders", "tool": "search_orders"}
+{"text": "Hi, ORD-1425 ka status batao", "route": "orders", "tool": "get_order"}
+{"text": "was anything refunded on ord-1675 already?", "route": "orders", "tool": "get_order"}
+{"text": "Can you help? Update TCK-2902: status closed", "route": "tickets", "tool": "update_ticket"}
+{"text": "Hi, Who pays customs fees outside the EU?", "route": "knowledge", "tool": null}
+{"text": "Complaints from jonas@mail.test", "route": "tickets", "tool": "search_tickets"}
+{"text": "Update TCK-2422: status pending", "route": "tickets", "tool": "update_ticket"}
+{"text": "Can you help? Make a urgent ticket for tom@example.com: wants an invoice", "route": "tickets", "tool": "create_ticket"}
+{"text": "hey, who pays customs fees outside the eu?", "route": "knowledge", "tool": null}
+{"text": "Compensate ORD-1310 with $12.5, duplicate order", "route": "orders", "tool": "refund_order"}
+{"text": "Complaints from omar@mail.test?", "route": "tickets", "tool": "search_tickets"}
+{"text": "Refund $20 on ORD-1146", "route": "orders", "tool": "refund_order"}
+{"text": "ORD-1002 status?", "route": "orders", "tool": "get_order"}
+{"text": "hey, How do I change a customer's meail address?", "route": "knowledge", "tool": null}
+{"text": "hey, Start a ticket for dan@example.com about tracking stuck for 5 days", "route": "tickets", "tool": "create_ticket"}
+{"text": "hey, I need the total of ORD-1803", "route": "orders", "tool": "get_order"}
+{"text": "Update TCK-2573: status open", "route": "tickets", "tool": "update_ticket"}
+{"text": "Quick one: Refund USD 120 on ORD-1233", "route": "orders", "tool": "refund_order"}
+{"text": "pls Update TCK-2030: status closed", "route": "tickets", "tool": "update_ticket"}
+{"text": "Can you help? What is TCK-2552 about?", "route": "tickets", "tool": "get_ticket"}
+{"text": "pls How do I change a customer's email address", "route": "knowledge", "tool": null}
+{"text": "Complaints from mei@example.com?", "route": "tickets", "tool": "search_tickets"}
+{"text": "Quick one: Update TCK-2488: status open", "route": "tickets", "tool": "update_ticket"}
+{"text": "Can you help? Complaints from sara@shop.test?", "route": "tickets", "tool": "search_tickets"}
+{"text": "Make a urgent ticket for priya@shop.test: parcel never arrived", "route": "tickets", "tool": "create_ticket"}
+{"text": "pls What's the priority of TCK-2371?", "route": "tickets", "tool": "get_ticket"}
+{"text": "hey, can a refund go to a different acrd?", "route": "knowledge", "tool": null}
+{"text": "Refund USD 12.5 on ORD-1618", "route": "orders", "tool": "refund_order"}
+{"text": "pls What's the priority of TCK-2319?", "route": "tickets", "tool": "get_ticket"}
+{"text": "Annule la commande ORD-1345", "route": "orders", "tool": "cancel_order"}
+{"text": "Quick one: ORD-1722 ka status batao", "route": "orders", "tool": "get_order"}
+{"text": "Make a high ticket for jonas@shop.test: tracking stuck for 5 days", "route": "tickets", "tool": "create_ticket"}
+{"text": "can a refund go to a different card?", "route": "knowledge", "tool": null}
+{"text": "Quick one: List the orders of jonas@shop.test", "route": "orders", "tool": "search_orders"}
+{"text": "pls Don't ship ORD-1823, cancel it", "route": "orders", "tool": "cancel_order"}
+{"text": "Quick one: Start a ticket for lena@example.com about charged twice", "route": "tickets", "tool": "create_ticket"}
+{"text": "Quick one: Reopen TCK-2184", "route": "tickets", "tool": "update_ticket"}
+{"text": "hey, Reopen TCK-2493", "route": "tickets", "tool": "update_ticket"}
+{"text": "Tell me a joek", "route": "other", "tool": null}
+{"text": "Hi, Pull up ticket TCK-2202", "route": "tickets", "tool": "get_ticket"}
+{"text": "Hi, Reopen TCK-2610", "route": "tickets", "tool": "update_ticket"}
+{"text": "What is TCK-2481 about?", "route": "tickets", "tool": "get_ticket"}
+{"text": "quick one: customer of ord-1685 should get 25 back", "route": "orders", "tool": "refund_order"}
+{"text": "pls Thank you, taht's all", "route": "other", "tool": null}
+{"text": "hey, Update TCK-2922: status pending", "route": "tickets", "tool": "update_ticket"}
+{"text": "hi, can a refund go to a different card?", "route": "knowledge", "tool": null}
+{"text": "pls list the ordres of jonas@mail.test", "route": "orders", "tool": "search_orders"}
+{"text": "pls pull up ticket tck-2650", "route": "tickets", "tool": "get_ticket"}
+{"text": "Hi, Do we have refunded orders today?", "route": "orders", "tool": "search_orders"}
+{"text": "What does the warranty not cover?", "route": "knowledge", "tool": null}
+{"text": "Hi, Do we accept Apple Pay?", "route": "knowledge", "tool": null}
+{"text": "Quick one: Do we accept PayPal?", "route": "knowledge", "tool": null}
+{"text": "Hi, Pull up ticket TCK-2070", "route": "tickets", "tool": "get_ticket"}
+{"text": "pls Show urgent tickets", "route": "tickets", "tool": "search_tickets"}
+{"text": "Can you help? What tickets are waiting?", "route": "tickets", "tool": "search_tickets"}
+{"text": "Update TCK-2521: status open", "route": "tickets", "tool": "update_ticket"}
+{"text": "pls Do we accept Amex", "route": "knowledge", "tool": null}
+{"text": "hey, Pull up ticket TCK-2884", "route": "tickets", "tool": "get_ticket"}
+{"text": "don't ship ord-1290, cancel it", "route": "orders", "tool": "cancel_order"}
+{"text": "pls Hello tehre!", "route": "other", "tool": null}
+{"text": "Can you hlep me with my homework?", "route": "other", "tool": null}
+{"text": "Quick one: I need the total of ORD-1024", "route": "orders", "tool": "get_order"}
+{"text": "hey, Do we accept Amex?", "route": "knowledge", "tool": null}
+{"text": "start a ticket for tom@mail.test about jacket zip broken", "route": "tickets", "tool": "create_ticket"}
+{"text": "what does the warranty not cover?", "route": "knowledge", "tool": null}
+{"text": "Quick one: Complaints from dan@mail.test?", "route": "tickets", "tool": "search_tickets"}
+{"text": "hey, Reopen TCK-2163", "route": "tickets", "tool": "update_ticket"}
+{"text": "Don't ship ORD-1767, cancel it", "route": "orders", "tool": "cancel_order"}
+{"text": "pls What tickets are waiting?", "route": "tickets", "tool": "search_tickets"}
+{"text": "pls Cancel ORD-1286", "route": "orders", "tool": "cancel_order"}
+{"text": "Can you help? Compensate ORD-1657 with $80, it arrived late", "route": "orders", "tool": "refund_order"}
+{"text": "What tickets are waiting", "route": "tickets", "tool": "search_tickets"}
+{"text": "update tck-2933: status open", "route": "tickets", "tool": "update_ticket"}
+{"text": "Quick one: Compensate ORD-1549 with $20, it arrived late", "route": "orders", "tool": "refund_order"}
+{"text": "Quick one: ORD-1256 status", "route": "orders", "tool": "get_order"}
+{"text": "Hi, Make a low ticket for priya@shop.test: wrong item sent", "route": "tickets", "tool": "create_ticket"}
+{"text": "can you help? do we accept apple pay?", "route": "knowledge", "tool": null}
+{"text": "hye, Hello there!", "route": "other", "tool": null}
+{"text": "List the orders of lena@mail.test", "route": "orders", "tool": "search_orders"}
+{"text": "hi, reopen tck-2929", "route": "tickets", "tool": "update_ticket"}
+{"text": "Can you help? Do we accept Apple Pay?", "route": "knowledge", "tool": null}
+{"text": "Hi, Customer of ORD-1698 should get $80 back", "route": "orders", "tool": "refund_order"}
+{"text": "Quick one: Compensate ORD-1907 with $30, a strap was missing", "route": "orders", "tool": "refund_order"}
+{"text": "cancel ord-1521", "route": "orders", "tool": "cancel_order"}
+{"text": "reopen tck-2028", "route": "tickets", "tool": "update_ticket"}
+{"text": "Can you help? Cancel ORD-1597", "route": "orders", "tool": "cancel_order"}
+{"text": "How do I change a customer's email address?", "route": "knowledge", "tool": null}
+{"text": "pls Start a ticket fro lena@shop.test about jacket zip broken", "route": "tickets", "tool": "create_ticket"}
+{"text": "Reopen TCK-2014", "route": "tickets", "tool": "update_ticket"}
+{"text": "Do we accept Apple Pay", "route": "knowledge", "tool": null}
+{"text": "Quick one: Don't ship ORD-1950, cancel it", "route": "orders", "tool": "cancel_order"}
+{"text": "Hi, Show urgent tickets", "route": "tickets", "tool": "search_tickets"}
+{"text": "Compensate ORD-1389 with USD 49.99, the seam is torn", "route": "orders", "tool": "refund_order"}
+{"text": "pls Cancel ORD-1055", "route": "orders", "tool": "cancel_order"}
+{"text": "Quick one: ORD-1246 status?", "route": "orders", "tool": "get_order"}
+{"text": "Quick one: Was anything refunded on ORD-1679 already?", "route": "orders", "tool": "get_order"}
+{"text": "Don't ship ORD-1260, cancel it", "route": "orders", "tool": "cancel_order"}
+{"text": "hey, Do we accept Apple Pay?", "route": "knowledge", "tool": null}
+{"text": "pls Who pays customs fees outside the EU?", "route": "knowledge", "tool": null}
+{"text": "Make a urgent ticket for carlos@mail.test: charged twice", "route": "tickets", "tool": "create_ticket"}
+{"text": "Update TCK-2904: status pending", "route": "tickets", "tool": "update_ticket"}
+{"text": "hey, Do we have delivered orders today?", "route": "orders", "tool": "search_orders"}
+{"text": "can you help? tell me a joke", "route": "other", "tool": null}
+{"text": "List the orders of mei@shop.test", "route": "orders", "tool": "search_orders"}
+{"text": "Can you help? Complaints from tom@mail.test?", "route": "tickets", "tool": "search_tickets"}
+{"text": "hey, what's the priority of tck-2089?", "route": "tickets", "tool": "get_ticket"}
+{"text": "Quick one: Annule la commande ORD-1369", "route": "orders", "tool": "cancel_order"}
+{"text": "Quick one: Tell me a joke", "route": "other", "tool": null}
+{"text": "Quick one: Do we have cancelled orders today?", "route": "orders", "tool": "search_orders"}
+{"text": "hey, update tck-2283: status open", "route": "tickets", "tool": "update_ticket"}
+{"text": "Hi, Make a normal ticket for lena@shop.test: parcel never arrived", "route": "tickets", "tool": "create_ticket"}
+{"text": "Do we have refunded orders today", "route": "orders", "tool": "search_orders"}
+{"text": "Hi, Complaints from dan@example.com?", "route": "tickets", "tool": "search_tickets"}
+{"text": "hello there!", "route": "other", "tool": null}
+{"text": "Can you help? List the orders of mei@example.com", "route": "orders", "tool": "search_orders"}
+{"text": "hey, Can you help me with my homework?", "route": "other", "tool": null}
+{"text": "Can you help? ORD-1081 ka status batao", "route": "orders", "tool": "get_order"}
+{"text": "Hi, Was anything refunded on ORD-1392 already?", "route": "orders", "tool": "get_order"}
+{"text": "Hi, ORD-1575 status?", "route": "orders", "tool": "get_order"}
+{"text": "Hi, How do I change a customer's email address?", "route": "knowledge", "tool": null}
+{"text": "Refund USD 80 on ORD-1810", "route": "orders", "tool": "refund_order"}
+{"text": "pls Hello there", "route": "other", "tool": null}
+{"text": "hey, Refund $10 on ORD-1875", "route": "orders", "tool": "refund_order"}
+{"text": "pls Pull up ticket TCK-2665", "route": "tickets", "tool": "get_ticket"}
+{"text": "Hi, ORD-1780 status?", "route": "orders", "tool": "get_order"}
+{"text": "Make a urgent ticket for dan@shop.test: parcel never arrived", "route": "tickets", "tool": "create_ticket"}
+{"text": "pls Update TCK-2198: status closed", "route": "tickets", "tool": "update_ticket"}
+{"text": "Do we have shipped orders today?", "route": "orders", "tool": "search_orders"}
+{"text": "Quick one: Refund USD 12.5 on ORD-1206", "route": "orders", "tool": "refund_order"}
+{"text": "pls Tell me a joke", "route": "other", "tool": null}
+{"text": "Can you help? Start a ticket for omar@example.com about wrong item sent", "route": "tickets", "tool": "create_ticket"}
+{"text": "hey, Can you help me wtih my homework?", "route": "other", "tool": null}
+{"text": "hey, Make a high ticket for lena@example.com: parcel never arrived", "route": "tickets", "tool": "create_ticket"}
+{"text": "Do we accept bank transfer?", "route": "knowledge", "tool": null}
+{"text": "pls Cancel ODR-1436", "route": "orders", "tool": "cancel_order"}
+{"text": "Quick one: Thank you, that's all", "route": "other", "tool": null}
+{"text": "Complaints from priya@shop.test?", "route": "tickets", "tool": "search_tickets"}
+{"text": "Quick one: Do we accept Amex", "route": "knowledge", "tool": null}
+{"text": "hey, can you help me with my homework?", "route": "other", "tool": null}
+{"text": "pls Don't ship ORD-1301, cancel it", "route": "orders", "tool": "cancel_order"}
+{"text": "Hi, Update TCK-2071: status pending", "route": "tickets", "tool": "update_ticket"}
+{"text": "Hi, What is TCK-2939 about?", "route": "tickets", "tool": "get_ticket"}
+{"text": "Customer of ORD-1572 should get 5 back", "route": "orders", "tool": "refund_order"}
+{"text": "Can you help? Update TCK-2548: status open", "route": "tickets", "tool": "update_ticket"}
+{"text": "pls Annule la commande ORD-1330", "route": "orders", "tool": "cancel_order"}
+{"text": "Quick one: What does the warranty not cover?", "route": "knowledge", "tool": null}
+{"text": "hey, Make a normal ticket for sara@example.com: tracking stuck for 5 days", "route": "tickets", "tool": "create_ticket"}
+{"text": "Hi, Pull up ticket TCK-2209", "route": "tickets", "tool": "get_ticket"}
+{"text": "pls Update TCK-2241: status pending", "route": "tickets", "tool": "update_ticket"}
+{"text": "Hi, Show all orders for jonas@mail.test", "route": "orders", "tool": "search_orders"}
+{"text": "Show the last five orders", "route": "orders", "tool": "search_orders"}
+{"text": "pls How do I change a customer's email address?", "route": "knowledge", "tool": null}
+{"text": "list the orders of carlos@mail.test", "route": "orders", "tool": "search_orders"}
+{"text": "Can you help? List the orders of tom@example.com", "route": "orders", "tool": "search_orders"}
+{"text": "quick one: show the last five orders", "route": "orders", "tool": "search_orders"}
+{"text": "Can you help? What's the priority of TCK-2540", "route": "tickets", "tool": "get_ticket"}
+{"text": "hi, do we accept bank transfer?", "route": "knowledge", "tool": null}
+{"text": "hey, How do I change a customer's email address?", "route": "knowledge", "tool": null}
+{"text": "cancel ord-1799", "route": "orders", "tool": "cancel_order"}
+{"text": "hey, Show all orders for carlos@mail.test", "route": "orders", "tool": "search_orders"}
+{"text": "Can you help? Updaet TCK-2765: status closed", "route": "tickets", "tool": "update_ticket"}
+{"text": "Do we accept Amex", "route": "knowledge", "tool": null}
+{"text": "Was anything refunded on ORD-1202 already?", "route": "orders", "tool": "get_order"}
+{"text": "hey, Annule la commande ORD-1583", "route": "orders", "tool": "cancel_order"}
+{"text": "Complaints from tom@mail.test?", "route": "tickets", "tool": "search_tickets"}
+{"text": "List the orders of priya@example.com", "route": "orders", "tool": "search_orders"}
+{"text": "What's the priority of TCK-2280?", "route": "tickets", "tool": "get_ticket"}
+{"text": "Pull up ticket TCK-2344", "route": "tickets", "tool": "get_ticket"}
+{"text": "Quick one: What is TCK-2598 about?", "route": "tickets", "tool": "get_ticket"}
+{"text": "Quick one: Make a low ticket for carlos@example.com: charged twice", "route": "tickets", "tool": "create_ticket"}
+{"text": "pls Who pays customs fees outside the EU", "route": "knowledge", "tool": null}
+{"text": "Can you help? ORD-1481 ka status batao", "route": "orders", "tool": "get_order"}
+{"text": "Can you help? What is TCK-2163 about?", "route": "tickets", "tool": "get_ticket"}
+{"text": "Quick one: Was anything refunded on ORD-1563 already?", "route": "orders", "tool": "get_order"}
+{"text": "hey, What does the warranty not cover?", "route": "knowledge", "tool": null}
+{"text": "pls Don't ship ORD-1970, cancel it", "route": "orders", "tool": "cancel_order"}
+{"text": "hey, Update TCK-2090: status pending", "route": "tickets", "tool": "update_ticket"}
+{"text": "Quick one: Start a ticket for tom@example.com about wrong item sent", "route": "tickets", "tool": "create_ticket"}
+{"text": "Hello htere!", "route": "other", "tool": null}
+{"text": "Quick one: Can you help me with my homework?", "route": "other", "tool": null}
+{"text": "Compensate ORD-1725 with USD 60, it arrived damaged", "route": "orders", "tool": "refund_order"}
+{"text": "pls hello theer!", "route": "other", "tool": null}
+{"text": "Make a normal ticket for dan@example.com: jacket zip broken", "route": "tickets", "tool": "create_ticket"}
+{"text": "pls Reopen TCK-2876", "route": "tickets", "tool": "update_ticket"}
+{"text": "pls Start a ticket for lena@example.com about jacket zip broken", "route": "tickets", "tool": "create_ticket"}
+{"text": "pls Do we have cancelled orders today?", "route": "orders", "tool": "search_orders"}
+{"text": "hi, pull up ticket tck-2239", "route": "tickets", "tool": "get_ticket"}
+{"text": "hi, update tck-2104: status closed", "route": "tickets", "tool": "update_ticket"}
+{"text": "pls Do we accept bank transfer?", "route": "knowledge", "tool": null}
+{"text": "Quick one: Show the last five orders", "route": "orders", "tool": "search_orders"}
+{"text": "tell em a joke", "route": "other", "tool": null}
+{"text": "start a ticket for mei@shop.test about parcel never arrived", "route": "tickets", "tool": "create_ticket"}
+{"text": "Hi, What's the priority of TCK-2089", "route": "tickets", "tool": "get_ticket"}
+{"text": "Hi, ORD-1286 ka status batao", "route": "orders", "tool": "get_order"}
+{"text": "ORD-1142 ka status batao", "route": "orders", "tool": "get_order"}
+{"text": "Can you help? Customer of ORD-1897 should get $80 back", "route": "orders", "tool": "refund_order"}
+{"text": "hey, update tck-2346: status pending", "route": "tickets", "tool": "update_ticket"}
+{"text": "What's the priority of TCK-2576?", "route": "tickets", "tool": "get_ticket"}
+{"text": "Can you help? Make a urgent tickte for priya@example.com: tracking stuck for 5 days", "route": "tickets", "tool": "create_ticket"}
+{"text": "Hi, Complaints from tom@shop.test?", "route": "tickets", "tool": "search_tickets"}
+{"text": "ORD-1665 status?", "route": "orders", "tool": "get_order"}
+{"text": "Can you help? Do we accept Amex?", "route": "knowledge", "tool": null}
+{"text": "Can you help? Reopen TCK-2598", "route": "tickets", "tool": "update_ticket"}
+{"text": "Show the alst five orders", "route": "orders", "tool": "search_orders"}
+{"text": "Cancel ORD-1936", "route": "orders", "tool": "cancel_order"}
+{"text": "pls Complaints from lena@example.com?", "route": "tickets", "tool": "search_tickets"}
+{"text": "Was anything refunded on ORD-1988 already?", "route": "orders", "tool": "get_order"}
+{"text": "List the orders of carlos@mail.test", "route": "orders", "tool": "search_orders"}
+{"text": "hey, Thank you, that's all", "route": "other", "tool": null}
+{"text": "quick one: ord-1492 ka status batao", "route": "orders", "tool": "get_order"}
+{"text": "hey, Make a high ticket for aisha@shop.test: wrong item sent", "route": "tickets", "tool": "create_ticket"}
+{"text": "Can you help? Reopen TCK-2793", "route": "tickets", "tool": "update_ticket"}
+{"text": "Was anything refunded on ORD-1572 already?", "route": "orders", "tool": "get_order"}
+{"text": "Quick one: Start a ticket for tom@shop.test about wants an invoice", "route": "tickets", "tool": "create_ticket"}
+{"text": "hey, Customer of ORD-1990 should get $30 back", "route": "orders", "tool": "refund_order"}
+{"text": "Show all orders for jonas@example.com", "route": "orders", "tool": "search_orders"}
+{"text": "Can you help? Cancel ORD-1984", "route": "orders", "tool": "cancel_order"}
+{"text": "hey, What is TCK-2898 about?", "route": "tickets", "tool": "get_ticket"}
+{"text": "Quick one: Customer of ROD-1725 should get USD 15 back", "route": "orders", "tool": "refund_order"}
+{"text": "Don't ship ORD-1005, cancel it", "route": "orders", "tool": "cancel_order"}
+{"text": "pls hello there!", "route": "other", "tool": null}
+{"text": "What's the priority of TCK-2360?", "route": "tickets", "tool": "get_ticket"}
+{"text": "pls Pull up ticket TCK-2125", "route": "tickets", "tool": "get_ticket"}
+{"text": "Hi, What's the priority of TCK-2961?", "route": "tickets", "tool": "get_ticket"}
+{"text": "Reopen TCK-2266", "route": "tickets", "tool": "update_ticket"}
+{"text": "hey, Pull up ticket TCK-2152", "route": "tickets", "tool": "get_ticket"}
+{"text": "Hi, What tickets are waiting?", "route": "tickets", "tool": "search_tickets"}
+{"text": "hey, Refund 30 on ORD-1699", "route": "orders", "tool": "refund_order"}
+{"text": "Hi, What's the priority of TCK-2973?", "route": "tickets", "tool": "get_ticket"}
+{"text": "hey, Make a normal ticket for dan@example.com: tracking stuck for 5 days", "route": "tickets", "tool": "create_ticket"}
+{"text": "pls Complaints from mei@mail.test", "route": "tickets", "tool": "search_tickets"}
+{"text": "Thank you, that's all", "route": "other", "tool": null}
+{"text": "Hi, Reopen TCK-2543", "route": "tickets", "tool": "update_ticket"}
+{"text": "hey, Cancel ORD-1979", "route": "orders", "tool": "cancel_order"}
+{"text": "Make a urgent ticket for jonas@example.com: charged twice", "route": "tickets", "tool": "create_ticket"}
+{"text": "quick one: what is tck-2796 about?", "route": "tickets", "tool": "get_ticket"}
+{"text": "pls I need the total of ORD-1886", "route": "orders", "tool": "get_order"}
+{"text": "make a urgent ticket for sara@example.com: tracking stuck for 5 days", "route": "tickets", "tool": "create_ticket"}
+{"text": "Complaints from jonas@mail.test?", "route": "tickets", "tool": "search_tickets"}
+{"text": "Hi, Reopen TCK-2964", "route": "tickets", "tool": "update_ticket"}
+{"text": "Hi, ORD-1651 status?", "route": "orders", "tool": "get_order"}
+{"text": "Can you help? Make a high ticket for aisha@mail.test: parcel never arrived", "route": "tickets", "tool": "create_ticket"}
+{"text": "hey, Reopen TCK-2351", "route": "tickets", "tool": "update_ticket"}
+{"text": "pull up ticket tck-2108", "route": "tickets", "tool": "get_ticket"}
+{"text": "Hi, Complaints from mei@example.com?", "route": "tickets", "tool": "search_tickets"}
+{"text": "Can you help? Compensate ORD-1155 with $60, the seam is torn", "route": "orders", "tool": "refund_order"}
+{"text": "Can you help? Hello there!", "route": "other", "tool": null}
+{"text": "who pays customs fees outside the eu?", "route": "knowledge", "tool": null}
+{"text": "hey, What is TCK-2779 about?", "route": "tickets", "tool": "get_ticket"}
+{"text": "hey, show the last five orders", "route": "orders", "tool": "search_orders"}
+{"text": "Start a ticket for priya@example.com about wants an invoice", "route": "tickets", "tool": "create_ticket"}
+{"text": "Can a refund go to a different card", "route": "knowledge", "tool": null}
+{"text": "Hi, Annule la commande ORD-1852", "route": "orders", "tool": "cancel_order"}
+{"text": "Can a refund go to a different card?", "route": "knowledge", "tool": null}
+{"text": "pls Was anything refunded on ORD-1440 already?", "route": "orders", "tool": "get_order"}
+{"text": "Complaints from carlos@shop.test?", "route": "tickets", "tool": "search_tickets"}
+{"text": "pull up ticket tck-2372", "route": "tickets", "tool": "get_ticket"}
+{"text": "pls Thank you, that's all", "route": "other", "tool": null}
+{"text": "Annule la commande ORD-1007", "route": "orders", "tool": "cancel_order"}
+{"text": "Hi, Make a high ticket for jonas@mail.test: wants an invoice", "route": "tickets", "tool": "create_ticket"}
+{"text": "Can you help? ORD-1450 ka status batao", "route": "orders", "tool": "get_order"}
+{"text": "pls Make a high ticket for omar@mail.test: tracking stuck for 5 days", "route": "tickets", "tool": "create_ticket"}
+{"text": "pls ORD-1709 ka status batao", "route": "orders", "tool": "get_order"}
+{"text": "hey, make a high ticket for sara@mail.test: wants an invoice", "route": "tickets", "tool": "create_ticket"}
+{"text": "complaints from dan@shop.test?", "route": "tickets", "tool": "search_tickets"}
+{"text": "Refund $15 on ORD-1207", "route": "orders", "tool": "refund_order"}
+{"text": "pls compensate ord-1650 with usd 5, it arrived damaged", "route": "orders", "tool": "refund_order"}
+{"text": "can you help? how do i change a customer's email address?", "route": "knowledge", "tool": null}
+{"text": "can you help? i need the total of ord-1107", "route": "orders", "tool": "get_order"}
+{"text": "Can you help? Make a low ticket for dan@shop.test: wants an invoice", "route": "tickets", "tool": "create_ticket"}
+{"text": "hey, Show urgent tickets", "route": "tickets", "tool": "search_tickets"}
+{"text": "pls Start a ticket for omar@mail.test about jacket zip broken", "route": "tickets", "tool": "create_ticket"}
+{"text": "show urgent tickets", "route": "tickets", "tool": "search_tickets"}
+{"text": "Quick one: Make a high ticket for carlos@shop.test: tracking stuck for 5 days", "route": "tickets", "tool": "create_ticket"}
+{"text": "can you help? pull up ticket tck-2089", "route": "tickets", "tool": "get_ticket"}
+{"text": "pls can you help me with my homework?", "route": "other", "tool": null}
+{"text": "pls can a refund go to a different card?", "route": "knowledge", "tool": null}
+{"text": "Quick one: Cancel ORD-1891", "route": "orders", "tool": "cancel_order"}
+{"text": "Can you help? Tell me a joke", "route": "other", "tool": null}
+{"text": "customer of ord-1150 should get $5 back", "route": "orders", "tool": "refund_order"}
+{"text": "pls Hello there!", "route": "other", "tool": null}
+{"text": "hey, pull up ticket tck-2438", "route": "tickets", "tool": "get_ticket"}
+{"text": "Quick one: Annule la commande ORD-1994", "route": "orders", "tool": "cancel_order"}
+{"text": "Quick oen: Tell me a joke", "route": "other", "tool": null}
+{"text": "Show all orders for mei@mail.test", "route": "orders", "tool": "search_orders"}
+{"text": "Start a ticket for carlos@mail.test about wants an invoice", "route": "tickets", "tool": "create_ticket"}
+{"text": "Can you help? Start a ticket for aisha@shop.test about charged twice", "route": "tickets", "tool": "create_ticket"}
+{"text": "Hi, Do we have cancelled orders today?", "route": "orders", "tool": "search_orders"}
+{"text": "pls Reopen TCK-2958", "route": "tickets", "tool": "update_ticket"}
+{"text": "pls Make a normal ticket for tom@example.com: charged twice", "route": "tickets", "tool": "create_ticket"}
+{"text": "Cancel ORD-1899", "route": "orders", "tool": "cancel_order"}
+{"text": "Do we accept Amex?", "route": "knowledge", "tool": null}
+{"text": "Quick one: Was anything refunded on ORD-1155 already?", "route": "orders", "tool": "get_order"}
+{"text": "pls What is TCK-2286 about?", "route": "tickets", "tool": "get_ticket"}
+{"text": "I need the total of ORD-1870", "route": "orders", "tool": "get_order"}
+{"text": "Can you help? Complaints from lena@shop.test?", "route": "tickets", "tool": "search_tickets"}
+{"text": "tell me a joke", "route": "other", "tool": null}
+{"text": "hey, Reopen TCK-2772", "route": "tickets", "tool": "update_ticket"}
+{"text": "Quick one: Was anything refunded on ORD-1821 already", "route": "orders", "tool": "get_order"}
+{"text": "Hi, List the orders of jonas@mail.test", "route": "orders", "tool": "search_orders"}
+{"text": "Pull up ticket TCK-2594", "route": "tickets", "tool": "get_ticket"}
+{"text": "Refund $30 on ORD-1180", "route": "orders", "tool": "refund_order"}
+{"text": "Can you help? I need the total of ORD-1551", "route": "orders", "tool": "get_order"}
+{"text": "i need the total of ord-1926", "route": "orders", "tool": "get_order"}
+{"text": "Hi, Was anything refunded on ORD-1914 already", "route": "orders", "tool": "get_order"}
+{"text": "quick one: can a refund go to a different card?", "route": "knowledge", "tool": null}
+{"text": "hey, tell me a joke", "route": "other", "tool": null}
+{"text": "Do we have pending orders today?", "route": "orders", "tool": "search_orders"}
+{"text": "Hi, Cancel ORD-1452", "route": "orders", "tool": "cancel_order"}
+{"text": "Update TCK-2618: status closde", "route": "tickets", "tool": "update_ticket"}
+{"text": "Tell me a joke", "route": "other", "tool": null}
+{"text": "Can you help? Refund 30 on ORD-1147", "route": "orders", "tool": "refund_order"}
+{"text": "hi, show the last five orders", "route": "orders", "tool": "search_orders"}
+{"text": "Start a ticket for jonas@example.com about jacket zip broken", "route": "tickets", "tool": "create_ticket"}
+{"text": "hey, ORD-1819 ka status batao", "route": "orders", "tool": "get_order"}
+{"text": "Customer of ORD-1668 should get $120 back", "route": "orders", "tool": "refund_order"}
+{"text": "pls Refund 30 on ORD-1127", "route": "orders", "tool": "refund_order"}
+{"text": "what is tck-2614 about?", "route": "tickets", "tool": "get_ticket"}
+{"text": "What is TCK-2491 about?", "route": "tickets", "tool": "get_ticket"}
+{"text": "hey, Start a ticket for carlos@example.com about wants an invoice", "route": "tickets", "tool": "create_ticket"}
+{"text": "What is TCK-2284 about?", "route": "tickets", "tool": "get_ticket"}
+{"text": "hi, what does the warranty not cover?", "route": "knowledge", "tool": null}
+{"text": "pls complaints from lena@mail.test?", "route": "tickets", "tool": "search_tickets"}
+{"text": "Compensate ORD-1971 with USD 120, the customer changed their mind", "route": "orders", "tool": "refund_order"}
+{"text": "Can you help? Customer of ORD-1406 should get $20 back", "route": "orders", "tool": "refund_order"}
+{"text": "hey, hello there!", "route": "other", "tool": null}
+{"text": "Hi, Make a low ticket for mei@mail.test: tracking stuck for 5 days", "route": "tickets", "tool": "create_ticket"}
+{"text": "pls do we accept bank transfer?", "route": "knowledge", "tool": null}
+{"text": "pls was anything refunded on ord-1095 already?", "route": "orders", "tool": "get_order"}
+{"text": "Do we have pending orders today", "route": "orders", "tool": "search_orders"}
+{"text": "Customer of ORD-1552 should get $49.99 back", "route": "orders", "tool": "refund_order"}
+{"text": "Quick one: Cancel ORD-1814", "route": "orders", "tool": "cancel_order"}
+{"text": "Can you help? Annule la commande ORD-1550", "route": "orders", "tool": "cancel_order"}
+{"text": "Reopen TCK-2836", "route": "tickets", "tool": "update_ticket"}
+{"text": "quick one: customer of ord-1492 should get usd 60 back", "route": "orders", "tool": "refund_order"}
+{"text": "Hi, Was anything refunded on ORD-1541 already?", "route": "orders", "tool": "get_order"}
+{"text": "List the orders of aisha@shop.test", "route": "orders", "tool": "search_orders"}
+{"text": "pls Thank yuo, that's all", "route": "other", "tool": null}
+{"text": "hey, Don't ship ORD-1490, cancel it", "route": "orders", "tool": "cancel_order"}
+{"text": "Hi, Compensate ORD-1504 with USD 20, the customer changed their mind", "route": "orders", "tool": "refund_order"}
+{"text": "do we have delivered orders today?", "route": "orders", "tool": "search_orders"}
+{"text": "hi, show urgent tickets", "route": "tickets", "tool": "search_tickets"}
+{"text": "Cancel ORD-1504", "route": "orders", "tool": "cancel_order"}
+{"text": "Pull up ticket TCK-2659", "route": "tickets", "tool": "get_ticket"}
+{"text": "Can you help? Compensate ORD-1576 with $20, a strap was missing", "route": "orders", "tool": "refund_order"}
+{"text": "annule la commande ord-1970", "route": "orders", "tool": "cancel_order"}
+{"text": "Complaints from sara@shop.test?", "route": "tickets", "tool": "search_tickets"}
+{"text": "hey, Tell me a joke", "route": "other", "tool": null}
+{"text": "Annule la commande ORD-1878", "route": "orders", "tool": "cancel_order"}
+{"text": "What tickets are waiting?", "route": "tickets", "tool": "search_tickets"}
+{"text": "pls Update TCK-2019: status open", "route": "tickets", "tool": "update_ticket"}
+{"text": "Can you help? Customer of ORD-1313 should get $45 back", "route": "orders", "tool": "refund_order"}
+{"text": "What's the priority of TCK-2526", "route": "tickets", "tool": "get_ticket"}
+{"text": "What is TCK-2864 about", "route": "tickets", "tool": "get_ticket"}
+{"text": "Hi, Show all orders for sara@exmaple.com", "route": "orders", "tool": "search_orders"}
+{"text": "complaints from jonas@shop.test?", "route": "tickets", "tool": "search_tickets"}
+{"text": "Cancel ORD-1227", "route": "orders", "tool": "cancel_order"}
+{"text": "Can you help? Pull up ticket TCK-2749", "route": "tickets", "tool": "get_ticket"}
+{"text": "quick one: update tck-2583: status pending", "route": "tickets", "tool": "update_ticket"}
+{"text": "Refund 15 on ORD-1817", "route": "orders", "tool": "refund_order"}
+{"text": "pls Complaints from sara@example.com?", "route": "tickets", "tool": "search_tickets"}
+{"text": "Hi, Thank you, that's all", "route": "other", "tool": null}
+{"text": "hi, do we have cancelled orders today?", "route": "orders", "tool": "search_orders"}
+{"text": "hey, Reopen TCK-2816", "route": "tickets", "tool": "update_ticket"}
+{"text": "Show all orders for sara@mail.test", "route": "orders", "tool": "search_orders"}
+{"text": "hey, Thank you, taht's all", "route": "other", "tool": null}
+{"text": "pls What is TCK-2574 about?", "route": "tickets", "tool": "get_ticket"}
+{"text": "hey, Cancel ORD-1510", "route": "orders", "tool": "cancel_order"}
+{"text": "how do i change a customer's email address?", "route": "knowledge", "tool": null}
+{"text": "What does the warranty not cover", "route": "knowledge", "tool": null}
+{"text": "qiuck one: tell me a joke", "route": "other", "tool": null}
+{"text": "start a ticket for sara@shop.test about parcel never arrived", "route": "tickets", "tool": "create_ticket"}
+{"text": "Complaints from sara@example.com?", "route": "tickets", "tool": "search_tickets"}
+{"text": "Hello there!", "route": "other", "tool": null}
+{"text": "Compensate ORD-1082 with $60, wrong size", "route": "orders", "tool": "refund_order"}
+{"text": "can you help? ord-1765 status?", "route": "orders", "tool": "get_order"}
+{"text": "Hi, Don't ship ORD-1806, cnacel it", "route": "orders", "tool": "cancel_order"}
+{"text": "pls Do we accept bank transfer", "route": "knowledge", "tool": null}
+{"text": "pls Don't ship ORD-1242, cancle it", "route": "orders", "tool": "cancel_order"}
+{"text": "Can you help? Hello there", "route": "other", "tool": null}
+{"text": "can you help? who pays customs fees outside the eu?", "route": "knowledge", "tool": null}
+{"text": "hey, Start a ticket for omar@example.com about wrong item sent", "route": "tickets", "tool": "create_ticket"}
+{"text": "Can you hepl? Can you help me with my homework?", "route": "other", "tool": null}
+{"text": "Start a ticket for priya@shop.test about charged twice", "route": "tickets", "tool": "create_ticket"}
+{"text": "What is CTK-2971 about?", "route": "tickets", "tool": "get_ticket"}
+{"text": "Quick one: Make a normal ticket for omar@shop.test: jacket zip broken", "route": "tickets", "tool": "create_ticket"}
+{"text": "Quick one: ORD-1784 ka status batao", "route": "orders", "tool": "get_order"}
+{"text": "hey, what is tck-2922 about?", "route": "tickets", "tool": "get_ticket"}
+{"text": "pls Hello three!", "route": "other", "tool": null}
+{"text": "Reopen TCK-2241", "route": "tickets", "tool": "update_ticket"}
+{"text": "Annule la commande ORD-1992", "route": "orders", "tool": "cancel_order"}
+{"text": "pls Reopen TCK-2417", "route": "tickets", "tool": "update_ticket"}
+{"text": "Customer of ORD-1853 should get $30 back", "route": "orders", "tool": "refund_order"}
+{"text": "Cancel ORD-1329", "route": "orders", "tool": "cancel_order"}
+{"text": "Can you help? Can you help me with my homework?", "route": "other", "tool": null}
+{"text": "Hi, What's the priority of TCK-2006?", "route": "tickets", "tool": "get_ticket"}
+{"text": "pls Do we accept bank trasnfer?", "route": "knowledge", "tool": null}
+{"text": "hey, Do we accept PayPal?", "route": "knowledge", "tool": null}
+{"text": "Pull up ticket TCK-2878", "route": "tickets", "tool": "get_ticket"}
+{"text": "Hi, Complaints from lena@mail.test?", "route": "tickets", "tool": "search_tickets"}
+{"text": "What is TCK-2445 about?", "route": "tickets", "tool": "get_ticket"}
+{"text": "hey, Reopen TCK-2464", "route": "tickets", "tool": "update_ticket"}
+{"text": "can you help? show urgent tickets", "route": "tickets", "tool": "search_tickets"}
+{"text": "Start a ticket for mei@mail.test about jacket zip broken", "route": "tickets", "tool": "create_ticket"}
+{"text": "pls ORD-1436 ka status batao", "route": "orders", "tool": "get_order"}
+{"text": "Hi, Customer of ORD-1019 should get $20 back", "route": "orders", "tool": "refund_order"}
+{"text": "Quick one: Can a refund go to a different card?", "route": "knowledge", "tool": null}
+{"text": "ORD-1535 status?", "route": "orders", "tool": "get_order"}
+{"text": "quick one: how do i change a customer's email address?", "route": "knowledge", "tool": null}
+{"text": "hey, Reopen TCK-2295", "route": "tickets", "tool": "update_ticket"}
+{"text": "Do we have cancelled orders today?", "route": "orders", "tool": "search_orders"}
+{"text": "Quick one: Hello there!", "route": "other", "tool": null}
+{"text": "Can you help? Start a ticket for lena@example.com about parcel never arrived", "route": "tickets", "tool": "create_ticket"}
+{"text": "pls Update TCK-2169: status closed", "route": "tickets", "tool": "update_ticket"}
+{"text": "Quick one: Reopen TCK-2346", "route": "tickets", "tool": "update_ticket"}
+{"text": "pls Do we have pending roders today", "route": "orders", "tool": "search_orders"}
+{"text": "Hi, Can a refund go to a different card", "route": "knowledge", "tool": null}
+{"text": "Hi, Complaints from lena@example.com?", "route": "tickets", "tool": "search_tickets"}
+{"text": "hey, What's the priority of TCK-2958?", "route": "tickets", "tool": "get_ticket"}
+{"text": "Quick one: ORD-1498 ka status batao", "route": "orders", "tool": "get_order"}
+{"text": "Can you help? Pull up ticket TCK-2430", "route": "tickets", "tool": "get_ticket"}
+{"text": "Quick one: Complaints from dan@shop.test", "route": "tickets", "tool": "search_tickets"}
+{"text": "Quick one: Reopen TCK-2247", "route": "tickets", "tool": "update_ticket"}
+{"text": "Hi, Cancel ORD-1040", "route": "orders", "tool": "cancel_order"}
+{"text": "Complaints from aisha@example.com?", "route": "tickets", "tool": "search_tickets"}
+{"text": "Quick one: ORD-1241 status?", "route": "orders", "tool": "get_order"}
+{"text": "What's the priority of TCK-2535?", "route": "tickets", "tool": "get_ticket"}
+{"text": "Hi, I need the total of ORD-1696", "route": "orders", "tool": "get_order"}
+{"text": "pls Refund $45 on ORD-1109", "route": "orders", "tool": "refund_order"}
+{"text": "Hi, Annule la commande ORD-1625", "route": "orders", "tool": "cancel_order"}
+{"text": "hey, What's the priority of TCK-2790?", "route": "tickets", "tool": "get_ticket"}
+{"text": "Can you help? What tcikets are waiting?", "route": "tickets", "tool": "search_tickets"}
+{"text": "Start a ticket for mei@shop.test about wants an invoice", "route": "tickets", "tool": "create_ticket"}
+{"text": "Quick one: Pull pu ticket TCK-2250", "route": "tickets", "tool": "get_ticket"}
+{"text": "Hi, Update TCK-2677: status pending", "route": "tickets", "tool": "update_ticket"}
+{"text": "What tickets are wiating?", "route": "tickets", "tool": "search_tickets"}
+{"text": "Quick one: What tickets are waiting?", "route": "tickets", "tool": "search_tickets"}
+{"text": "Hi, Hello there", "route": "other", "tool": null}
+{"text": "hey, Do we accept bank transfer?", "route": "knowledge", "tool": null}
+{"text": "Hi, Can you help me with my homework?", "route": "other", "tool": null}
+{"text": "pls Can a refund go to a different card?", "route": "knowledge", "tool": null}
+{"text": "List the orders of dan@shop.test", "route": "orders", "tool": "search_orders"}
+{"text": "Start a ticket for sara@shop.test about charged twice", "route": "tickets", "tool": "create_ticket"}
+{"text": "pls Thank you, htat's all", "route": "other", "tool": null}
+{"text": "Show urgent tickets", "route": "tickets", "tool": "search_tickets"}
+{"text": "hey, Complaints from aisha@shop.test?", "route": "tickets", "tool": "search_tickets"}
+{"text": "Can you help? Reopen TCK-2084", "route": "tickets", "tool": "update_ticket"}
+{"text": "Lits the orders of omar@mail.test", "route": "orders", "tool": "search_orders"}
+{"text": "Hi, Do we accept Amex?", "route": "knowledge", "tool": null}
+{"text": "start a ticket for sara@example.com about charged twice", "route": "tickets", "tool": "create_ticket"}
+{"text": "Can you help? Start a ticket for tom@example.com about parcel never arrived", "route": "tickets", "tool": "create_ticket"}
+{"text": "Can you help? What's the priority of TCK-2072?", "route": "tickets", "tool": "get_ticket"}
+{"text": "Reopen TCK-2982", "route": "tickets", "tool": "update_ticket"}
+{"text": "i need the total of ord-1174", "route": "orders", "tool": "get_order"}
+{"text": "Quick one: ORD-1553 ka status batao", "route": "orders", "tool": "get_order"}
+{"text": "Can you help me with my homework?", "route": "other", "tool": null}
+{"text": "hey, Hello there", "route": "other", "tool": null}
+{"text": "hey, start a ticket for lena@shop.test about jacket zip broken", "route": "tickets", "tool": "create_ticket"}
+{"text": "Cancel ORD-1296", "route": "orders", "tool": "cancel_order"}
+{"text": "Hi, Do we have cancelled orders today", "route": "orders", "tool": "search_orders"}
+{"text": "hey, Complaints from omar@hsop.test?", "route": "tickets", "tool": "search_tickets"}
+{"text": "hey, Update TCK-2094: status closed", "route": "tickets", "tool": "update_ticket"}
+{"text": "quick one: i need the total of ord-1771", "route": "orders", "tool": "get_order"}
+{"text": "Can you help? Can a refund go to a different card?", "route": "knowledge", "tool": null}
+{"text": "hi, complaints from carlos@example.com?", "route": "tickets", "tool": "search_tickets"}
+{"text": "Can you help? Show all orders for jonas@example.com", "route": "orders", "tool": "search_orders"}
+{"text": "Can you help? Can you help me with my homework", "route": "other", "tool": null}
+{"text": "Update TCK-2804: status open", "route": "tickets", "tool": "update_ticket"}
+{"text": "pls Make a normal ticket for dan@mail.test: charged twice", "route": "tickets", "tool": "create_ticket"}
+{"text": "hey, Cancel ORD-1072", "route": "orders", "tool": "cancel_order"}
+{"text": "Can you help? What's the priority of TCK-2183", "route": "tickets", "tool": "get_ticket"}
+{"text": "hey, What is TCK-2193 about?", "route": "tickets", "tool": "get_ticket"}
+{"text": "Do we accept bank transfer", "route": "knowledge", "tool": null}
+{"text": "reopen ctk-2491", "route": "tickets", "tool": "update_ticket"}
+{"text": "Hi, Make a urgent ticket for adn@example.com: tracking stuck for 5 days", "route": "tickets", "tool": "create_ticket"}
+{"text": "Start a ticket for carlos@example.com about wants an invoice", "route": "tickets", "tool": "create_ticket"}
+{"text": "Can you help? Do we have refunded orders today?", "route": "orders", "tool": "search_orders"}
+{"text": "pls show all orders for priya@shop.test", "route": "orders", "tool": "search_orders"}
+{"text": "Quick one: List the orders of dan@shop.test", "route": "orders", "tool": "search_orders"}
+{"text": "Complainst from mei@shop.test?", "route": "tickets", "tool": "search_tickets"}
+{"text": "quick one: hello there!", "route": "other", "tool": null}
+{"text": "Hi, Complaints from omar@shop.test?", "route": "tickets", "tool": "search_tickets"}
+{"text": "Can you help? ORD-1029 ka status batao", "route": "orders", "tool": "get_order"}
+{"text": "hey, Hello there!", "route": "other", "tool": null}
+{"text": "pls Make a high ticket for dan@example.com: wants an invoice", "route": "tickets", "tool": "create_ticket"}
+{"text": "hey, Complaints from tom@example.com?", "route": "tickets", "tool": "search_tickets"}
+{"text": "Quick one: ORD-1798 ka status batao", "route": "orders", "tool": "get_order"}
+{"text": "Cancel ORD-1539", "route": "orders", "tool": "cancel_order"}
+{"text": "Cancel ORD-1980", "route": "orders", "tool": "cancel_order"}
+{"text": "pls What is TCK-2750 about?", "route": "tickets", "tool": "get_ticket"}
+{"text": "Reopen TCK-2255", "route": "tickets", "tool": "update_ticket"}
+{"text": "Complaints from aisha@shop.test?", "route": "tickets", "tool": "search_tickets"}
+{"text": "Show all orders for sara@example.com", "route": "orders", "tool": "search_orders"}
+{"text": "Make a urgent ticket for omar@shop.test: charged twice", "route": "tickets", "tool": "create_ticket"}
+{"text": "hey, pull up ticket tck-2942", "route": "tickets", "tool": "get_ticket"}
+{"text": "Hi, Start a ticket for carlos@shop.test about tracking stuck for 5 days", "route": "tickets", "tool": "create_ticket"}
+{"text": "Quick one: List the orders of sara@example.com", "route": "orders", "tool": "search_orders"}
+{"text": "ORD-1793 stauts?", "route": "orders", "tool": "get_order"}
+{"text": "hey, Customer of ORD-1405 should get $49.99 back", "route": "orders", "tool": "refund_order"}
+{"text": "hey, Compensate ORD-1942 wiht 12.5, the customer changed their mind", "route": "orders", "tool": "refund_order"}
+{"text": "Reopen TCK-2882", "route": "tickets", "tool": "update_ticket"}
+{"text": "Hi, Don't ship ORD-1714, cancel it", "route": "orders", "tool": "cancel_order"}
+{"text": "Compensate ORD-1155 with $49.99, it arrived damaged", "route": "orders", "tool": "refund_order"}
+{"text": "Make a high ticket for jonas@mail.test: parcel never arrived", "route": "tickets", "tool": "create_ticket"}
+{"text": "Do we have delivered orders today?", "route": "orders", "tool": "search_orders"}
+{"text": "Hi, Show all orders for sara@shop.test", "route": "orders", "tool": "search_orders"}
+{"text": "pls Can you help me with my homework?", "route": "other", "tool": null}
+{"text": "pls What's the priority of TCK-2264?", "route": "tickets", "tool": "get_ticket"}
+{"text": "pls Can you help me with my homework", "route": "other", "tool": null}
+{"text": "Hi, Hello there!", "route": "other", "tool": null}
+{"text": "pls Complaints from sara@shop.test?", "route": "tickets", "tool": "search_tickets"}
+{"text": "Can you ehlp? Show urgent tickets", "route": "tickets", "tool": "search_tickets"}
+{"text": "hey, Refund USD 10 on ORD-1938", "route": "orders", "tool": "refund_order"}
+{"text": "Start a ticket for aisha@shop.test about wrong item sent", "route": "tickets", "tool": "create_ticket"}
+{"text": "Hi, Compensate ORD-1837 with $49.99, it arrived late", "route": "orders", "tool": "refund_order"}
+{"text": "Quick one: Compensate ORD-1237 with 30, ordered by mistake", "route": "orders", "tool": "refund_order"}
+{"text": "complaints from sara@example.com?", "route": "tickets", "tool": "search_tickets"}
+{"text": "pls Show all orders for lena@example.com", "route": "orders", "tool": "search_orders"}
+{"text": "can you help me with my homework?", "route": "other", "tool": null}
+{"text": "hey, Do we have pending ordres today?", "route": "orders", "tool": "search_orders"}
+{"text": "pls What is TCK-2716 about?", "route": "tickets", "tool": "get_ticket"}
+{"text": "Quick one: Cancel ORD-1017", "route": "orders", "tool": "cancel_order"}
+{"text": "Who pays customs fees outside the EU", "route": "knowledge", "tool": null}
+{"text": "pls List the orders of lena@mail.test", "route": "orders", "tool": "search_orders"}
+{"text": "Start a ticket for carlos@mali.test about charged twice", "route": "tickets", "tool": "create_ticket"}
+{"text": "Cancel ORD-1131", "route": "orders", "tool": "cancel_order"}
+{"text": "Can you help? Update TCK-2776: status closed", "route": "tickets", "tool": "update_ticket"}
+{"text": "Annule la commande ORD-1384", "route": "orders", "tool": "cancel_order"}
+{"text": "Quick one: Annule la commande ORD-1059", "route": "orders", "tool": "cancel_order"}
+{"text": "Hi, Cancel ORD-1607", "route": "orders", "tool": "cancel_order"}
+{"text": "Make a normal ticket for jonas@shop.test: charged twice", "route": "tickets", "tool": "create_ticket"}
+{"text": "pls thank you, that's all", "route": "other", "tool": null}
+{"text": "quick one: who pays customs fees outside the eu?", "route": "knowledge", "tool": null}
+{"text": "pls I need the total of ORD-1092", "route": "orders", "tool": "get_order"}
+{"text": "pls hWat is TCK-2055 about?", "route": "tickets", "tool": "get_ticket"}
+{"text": "quick one: can you help me with my homework?", "route": "other", "tool": null}
+{"text": "Can you help? Annule la cmomande ORD-1963", "route": "orders", "tool": "cancel_order"}
+{"text": "Hi, Tell me a joke", "route": "other", "tool": null}
+{"text": "Compensate ORD-1102 with USD 60, it arrived late", "route": "orders", "tool": "refund_order"}
+{"text": "Can you help? What does the warranty not cover", "route": "knowledge", "tool": null}
+{"text": "Can you help? Complaints from lena@mail.test", "route": "tickets", "tool": "search_tickets"}
+{"text": "Quick one: Reopen TCK-2692", "route": "tickets", "tool": "update_ticket"}
+{"text": "Can you help? What is TCK-2453 about?", "route": "tickets", "tool": "get_ticket"}
+{"text": "can you help? hello there!", "route": "other", "tool": null}
+{"text": "pls customer of ord-1530 should get 25 back", "route": "orders", "tool": "refund_order"}
+{"text": "refund 15 on ord-1899", "route": "orders", "tool": "refund_order"}
+{"text": "Make a urgent ticket for priya@shop.test: jacket zip broken", "route": "tickets", "tool": "create_ticket"}
+{"text": "Quick one: Cancel ORD-1672", "route": "orders", "tool": "cancel_order"}
+{"text": "Can you help? Complaints from dan@example.com?", "route": "tickets", "tool": "search_tickets"}
+{"text": "pls Compensate ORD-1277 with USD 20, wrong size", "route": "orders", "tool": "refund_order"}
+{"text": "Quick one: Compensate ORD-1907 with $20, the customer changed their mind", "route": "orders", "tool": "refund_order"}
+{"text": "i need the total of ord-1368", "route": "orders", "tool": "get_order"}
+{"text": "Was anything refunded on ORD-1986 already?", "route": "orders", "tool": "get_order"}
+{"text": "Hi, Woh pays customs fees outside the EU?", "route": "knowledge", "tool": null}
+{"text": "Hi, ORD-1999 ka status batao", "route": "orders", "tool": "get_order"}
+{"text": "Start a ticket for aisha@example.com about parcel never arrived", "route": "tickets", "tool": "create_ticket"}
+{"text": "Can you help? Thank you, that's all", "route": "other", "tool": null}
+{"text": "Compensate ORD-1190 with USD 5, wrong size", "route": "orders", "tool": "refund_order"}
+{"text": "start a ticket for omar@example.com about tracking stuck for 5 days", "route": "tickets", "tool": "create_ticket"}
+{"text": "Hi, Was anything refunded on ORD-1124 already?", "route": "orders", "tool": "get_order"}
+{"text": "hi, complaints from omar@example.com?", "route": "tickets", "tool": "search_tickets"}
+{"text": "hi, don't ship ord-1368, cancel it", "route": "orders", "tool": "cancel_order"}
+{"text": "Don't ship ORD-1702, cancel it", "route": "orders", "tool": "cancel_order"}
+{"text": "hey, Customer of ORD-1871 should get 45 back", "route": "orders", "tool": "refund_order"}
+{"text": "pls What does the warranty not cover?", "route": "knowledge", "tool": null}
+{"text": "hey, pull up ticket tck-2667", "route": "tickets", "tool": "get_ticket"}
+{"text": "pls don't ship ord-1428, cancel it", "route": "orders", "tool": "cancel_order"}
+{"text": "hey, Update TCK-2085: status closed", "route": "tickets", "tool": "update_ticket"}
+{"text": "pls Complaints from omar@shop.test?", "route": "tickets", "tool": "search_tickets"}
+{"text": "Hi, Compensate ORD-1282 with $20, a strap was missing", "route": "orders", "tool": "refund_order"}
+{"text": "quick one: complaints from lena@example.com?", "route": "tickets", "tool": "search_tickets"}
+{"text": "what tickets are waiting?", "route": "tickets", "tool": "search_tickets"}
+{"text": "Hi, What's the priority of TCK-2053", "route": "tickets", "tool": "get_ticket"}
+{"text": "Customer of ORD-1151 should get 5 back", "route": "orders", "tool": "refund_order"}
+{"text": "can you help? what tickets are waiting?", "route": "tickets", "tool": "search_tickets"}
+{"text": "Cna you help me with my homework?", "route": "other", "tool": null}
+{"text": "Hello tehre!", "route": "other", "tool": null}
+{"text": "Compensate ORD-1122 with $20, the seam is torn", "route": "orders", "tool": "refund_order"}
+{"text": "pls What does the warranty not cover", "route": "knowledge", "tool": null}
+{"text": "Quick one: Update TCK-2724: status open", "route": "tickets", "tool": "update_ticket"}
+{"text": "Can you help? ORD-1852 status?", "route": "orders", "tool": "get_order"}
+{"text": "Quick one: Cancel ORD-1298", "route": "orders", "tool": "cancel_order"}
+{"text": "thank you, that's all", "route": "other", "tool": null}
+{"text": "can you help? start a ticket for jonas@example.com about wants an invoice", "route": "tickets", "tool": "create_ticket"}
+{"text": "i need the total of ord-1267", "route": "orders", "tool": "get_order"}
+{"text": "quick one: thank you, that's all", "route": "other", "tool": null}
+{"text": "hey, Show all orders for jonas@shop.test", "route": "orders", "tool": "search_orders"}
+{"text": "pls Update TCK-2766: status closed", "route": "tickets", "tool": "update_ticket"}
+{"text": "can you help? can you help me with my homework?", "route": "other", "tool": null}
+{"text": "Can you help me with ym homework", "route": "other", "tool": null}
+{"text": "Quick one: Make a high ticket for dan@mail.test: charged twice", "route": "tickets", "tool": "create_ticket"}
+{"text": "hey, Reopen TCK-2959", "route": "tickets", "tool": "update_ticket"}
+{"text": "What's the priority of TCK-2750?", "route": "tickets", "tool": "get_ticket"}
+{"text": "Can you help? Who pays customs fees outside the EU?", "route": "knowledge", "tool": null}
+{"text": "hi, complaints from carlos@mail.test?", "route": "tickets", "tool": "search_tickets"}
+{"text": "hey, What tickets are waiting", "route": "tickets", "tool": "search_tickets"}
+{"text": "Can you help? Reopen TCK-2427", "route": "tickets", "tool": "update_ticket"}
+{"text": "Can you help? Do we accept PayPal?", "route": "knowledge", "tool": null}
+{"text": "Qiuck one: Cancel ORD-1831", "route": "orders", "tool": "cancel_order"}
+{"text": "can you help? was anything refunded on ord-1078 already?", "route": "orders", "tool": "get_order"}
+{"text": "hey, Do we have shipped orders today?", "route": "orders", "tool": "search_orders"}
+{"text": "hi, show all orders for tom@example.com", "route": "orders", "tool": "search_orders"}
+{"text": "Customer of ORD-1184 should get 20 back", "route": "orders", "tool": "refund_order"}
+{"text": "hey, Pull up ticket TCK-2258", "route": "tickets", "tool": "get_ticket"}
+{"text": "pls What is TCK-2567 about?", "route": "tickets", "tool": "get_ticket"}
+{"text": "pls Customer of ORD-1331 should get USD 25 back", "route": "orders", "tool": "refund_order"}
+{"text": "Quick one: List the orders of aisha@example.com", "route": "orders", "tool": "search_orders"}
+{"text": "list the orders of jonas@shop.test", "route": "orders", "tool": "search_orders"}
+{"text": "show the last five orders", "route": "orders", "tool": "search_orders"}
+{"text": "ORD-1053 ka status batao", "route": "orders", "tool": "get_order"}
+{"text": "quick one: complaints from jonas@example.com?", "route": "tickets", "tool": "search_tickets"}
+{"text": "update tck-2480: status pending", "route": "tickets", "tool": "update_ticket"}
+{"text": "pls Start a ticket for tom@example.com about jacket zip broken", "route": "tickets", "tool": "create_ticket"}
+{"text": "hey, I need the total of ORD-1490", "route": "orders", "tool": "get_order"}
+{"text": "Can you help? Cancel ORD-1972", "route": "orders", "tool": "cancel_order"}
+{"text": "ORD-1757 ka status batao", "route": "orders", "tool": "get_order"}
+{"text": "hey, Was anything refunded on ORD-1243 already?", "route": "orders", "tool": "get_order"}
+{"text": "Quick one: Update TCK-2547: status closed", "route": "tickets", "tool": "update_ticket"}
+{"text": "Complaints from jonas@example.com?", "route": "tickets", "tool": "search_tickets"}
+{"text": "ORD-1413 status?", "route": "orders", "tool": "get_order"}
+{"text": "Hi, Refund 30 on ORD-1735", "route": "orders", "tool": "refund_order"}
+{"text": "pls What is TCK-2020 about?", "route": "tickets", "tool": "get_ticket"}
+{"text": "Can you help? ORD-1429 ka status batao", "route": "orders", "tool": "get_order"}
+{"text": "Complaints from aisha@mail.test?", "route": "tickets", "tool": "search_tickets"}
+{"text": "Can you help? How do I change a customer's email address?", "route": "knowledge", "tool": null}
+{"text": "Hi, Can a refund go to a different card?", "route": "knowledge", "tool": null}
+{"text": "hey, Show all orders for priya@example.com", "route": "orders", "tool": "search_orders"}
+{"text": "hey, do we have delivered orders today?", "route": "orders", "tool": "search_orders"}
+{"text": "make a high ticket for dan@shop.test: charged twcie", "route": "tickets", "tool": "create_ticket"}
+{"text": "do we have cancelled orders today?", "route": "orders", "tool": "search_orders"}
+{"text": "hey, Cancel ORD-1493", "route": "orders", "tool": "cancel_order"}
+{"text": "hi, list the orders of jonas@mail.test", "route": "orders", "tool": "search_orders"}
+{"text": "pls Start a ticket for omar@mail.test about wants an invoice", "route": "tickets", "tool": "create_ticket"}
+{"text": "hi, cancel ord-1471", "route": "orders", "tool": "cancel_order"}
+{"text": "Hi, Refund 25 on ORD-1639", "route": "orders", "tool": "refund_order"}
+{"text": "Waht tickets are waiting?", "route": "tickets", "tool": "search_tickets"}
+{"text": "Hi, ORD-1429 status?", "route": "orders", "tool": "get_order"}
+{"text": "List the orders of aisha@mail.test", "route": "orders", "tool": "search_orders"}

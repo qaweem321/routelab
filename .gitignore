@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+models/
+*-checkpoints/
+.env
+node_modules/
+.ipynb_checkpoints/
+logs/
